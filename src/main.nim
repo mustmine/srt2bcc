@@ -1,4 +1,5 @@
 import std/strutils
+import std/strformat
 
 type body = object
     `from`: float
@@ -33,19 +34,13 @@ proc srt2bbc() =
 "stroke": "none",
 "body": [
 """
-
-    let ender = """
-]
-}
-    """
-
+    let ender = "]}"
     outfile.write(header)
 
     var bodyseq: seq[body]
     var initbody = body()
     var i = 1
-    for line in infile.lines:
-        
+    for line in infile.lines:       
         if i mod 4 == 1:
             i = i + 1
             continue
@@ -62,36 +57,18 @@ proc srt2bbc() =
             i = i + 1
             continue
 
-    for i,mbody in bodyseq:
-        outfile.write("""
-{"from":
-""")
-        outfile.write(mbody.`from`)
-        outfile.write(",")
-        outfile.write("""
-"to":
-""")
-        outfile.write(mbody.to)
-        outfile.write(",")
-        outfile.write("""
-"location": 
-""")
-        outfile.write(mbody.location)
-        outfile.write(",")
-        outfile.write("""
-"content":  
-""")
-        outfile.write('"')
-        outfile.write(mbody.content)
-        outfile.write('"')
+    for i, mbody in bodyseq:
+        outfile.write("{")
+        outfile.write(fmt """
+            "from": {mbody.from},
+            "to": {mbody.to},
+            "location": 2,
+            "content": "{mbody.content}"
+        """)
         if i == bodyseq.high:
-            outfile.write("""
-}
-""")
+            outfile.write("}")
         else:
-            outfile.write("""
-},
-""")
+            outfile.write("},")
 
     outfile.write(ender)
 

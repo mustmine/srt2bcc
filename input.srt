@@ -1,0 +1,1940 @@
+0
+00:00:01,560 --> 00:00:04,560
+foreign
+
+1
+00:00:14,240 --> 00:00:20,580
+welcome back to another name tutorial
+
+2
+00:00:18,420 --> 00:00:23,760
+in this tutorial we'll be talking about
+
+3
+00:00:20,580 --> 00:00:26,460
+if statements if statements are used to
+
+4
+00:00:23,760 --> 00:00:29,460
+add logic to your program you can make
+
+5
+00:00:26,460 --> 00:00:31,019
+your program make decisions for example
+
+6
+00:00:29,460 --> 00:00:31,859
+when you go to the store and you're like
+
+7
+00:00:31,019 --> 00:00:33,899
+hmm
+
+8
+00:00:31,859 --> 00:00:35,520
+should I buy
+
+9
+00:00:33,899 --> 00:00:38,399
+the bar one
+
+10
+00:00:35,520 --> 00:00:40,440
+or the lunch bar
+
+11
+00:00:38,399 --> 00:00:42,180
+that's a choice you have to make you can
+
+12
+00:00:40,440 --> 00:00:43,559
+even write a program to make that choice
+
+13
+00:00:42,180 --> 00:00:45,420
+for you
+
+14
+00:00:43,559 --> 00:00:48,059
+and this is where programming really
+
+15
+00:00:45,420 --> 00:00:50,520
+starts to become incredibly powerful
+
+16
+00:00:48,059 --> 00:00:51,719
+not only to cover all of these in a
+
+17
+00:00:50,520 --> 00:00:53,820
+physical manner so I'm just going to
+
+18
+00:00:51,719 --> 00:00:55,500
+give them all to you right now so these
+
+19
+00:00:53,820 --> 00:00:59,039
+are all the type of operations you can
+
+20
+00:00:55,500 --> 00:01:00,300
+do larger than lesser than larger than
+
+21
+00:00:59,039 --> 00:01:02,699
+equal
+
+22
+00:01:00,300 --> 00:01:05,880
+lesser than or equal
+
+23
+00:01:02,699 --> 00:01:08,520
+you also have equal not equal and we'll
+
+24
+00:01:05,880 --> 00:01:10,500
+use a few of them to give you an example
+
+25
+00:01:08,520 --> 00:01:12,000
+and then finally
+
+26
+00:01:10,500 --> 00:01:14,159
+and
+
+27
+00:01:12,000 --> 00:01:17,460
+or not
+
+28
+00:01:14,159 --> 00:01:19,140
+as well as xor and we'll get into what
+
+29
+00:01:17,460 --> 00:01:21,420
+all of these does except for xor this
+
+30
+00:01:19,140 --> 00:01:23,640
+basically returns true if one of the
+
+31
+00:01:21,420 --> 00:01:25,200
+conditions are false and the other is
+
+32
+00:01:23,640 --> 00:01:27,180
+true
+
+33
+00:01:25,200 --> 00:01:28,740
+which can be useful if you have a
+
+34
+00:01:27,180 --> 00:01:30,299
+scenario for it
+
+35
+00:01:28,740 --> 00:01:31,680
+all right so let's declare a few
+
+36
+00:01:30,299 --> 00:01:34,640
+variables
+
+37
+00:01:31,680 --> 00:01:38,040
+so we have age is equal to 24
+
+38
+00:01:34,640 --> 00:01:40,140
+name is equal to Jack
+
+39
+00:01:38,040 --> 00:01:42,960
+and birthday
+
+40
+00:01:40,140 --> 00:01:45,720
+is equal to true
+
+41
+00:01:42,960 --> 00:01:49,740
+cool so we have an integer age a string
+
+42
+00:01:45,720 --> 00:01:54,060
+Jack and a Boolean yes or no true
+
+43
+00:01:49,740 --> 00:01:56,820
+cool now let's say we have a bar now
+
+44
+00:01:54,060 --> 00:02:00,240
+let's first say if someone is under the
+
+45
+00:01:56,820 --> 00:02:04,399
+age of 21 they are not allowed to enter
+
+46
+00:02:00,240 --> 00:02:11,520
+this bar then we can check if their age
+
+47
+00:02:04,399 --> 00:02:12,660
+is less than 21. then Echo you may not
+
+48
+00:02:11,520 --> 00:02:14,700
+enter
+
+49
+00:02:12,660 --> 00:02:16,680
+or enter
+
+50
+00:02:14,700 --> 00:02:18,780
+so here we're checking if this variable
+
+51
+00:02:16,680 --> 00:02:20,760
+age is less than 21 we could have even
+
+52
+00:02:18,780 --> 00:02:23,160
+put a normal number here like 24 that's
+
+53
+00:02:20,760 --> 00:02:26,239
+perfectly fine anyhow so we're checking
+
+54
+00:02:23,160 --> 00:02:30,360
+is this less than this if it is Princess
+
+55
+00:02:26,239 --> 00:02:32,099
+let's make the age 10 for now
+
+56
+00:02:30,360 --> 00:02:35,040
+if we run this
+
+57
+00:02:32,099 --> 00:02:38,160
+we will get you may not enter
+
+58
+00:02:35,040 --> 00:02:41,400
+but if we were to say 21 because this is
+
+59
+00:02:38,160 --> 00:02:44,400
+any checking for less than 21. so 21 and
+
+60
+00:02:41,400 --> 00:02:47,519
+older is perfectly fine so if we run
+
+61
+00:02:44,400 --> 00:02:50,160
+this you'll see we don't get an output
+
+62
+00:02:47,519 --> 00:02:53,280
+so just by using an if statement we've
+
+63
+00:02:50,160 --> 00:02:55,920
+told our program to only do something if
+
+64
+00:02:53,280 --> 00:02:58,260
+it meets a specific condition
+
+65
+00:02:55,920 --> 00:03:00,000
+now let's say if someone's too old
+
+66
+00:02:58,260 --> 00:03:01,440
+they're also not allowed to enter so we
+
+67
+00:03:00,000 --> 00:03:04,319
+can say if age
+
+68
+00:03:01,440 --> 00:03:05,580
+is more than 60 so if they're older than
+
+69
+00:03:04,319 --> 00:03:07,260
+60
+
+70
+00:03:05,580 --> 00:03:08,700
+then you should tell them
+
+71
+00:03:07,260 --> 00:03:12,000
+Echo
+
+72
+00:03:08,700 --> 00:03:13,800
+you are elderly
+
+73
+00:03:12,000 --> 00:03:15,239
+may not
+
+74
+00:03:13,800 --> 00:03:18,000
+enter
+
+75
+00:03:15,239 --> 00:03:19,560
+cool so now we have two if statements
+
+76
+00:03:18,000 --> 00:03:22,080
+here and take note of the indentation
+
+77
+00:03:19,560 --> 00:03:24,540
+here that's actually important if you
+
+78
+00:03:22,080 --> 00:03:27,180
+just do this it might for an error at
+
+79
+00:03:24,540 --> 00:03:29,940
+you indentation is important
+
+80
+00:03:27,180 --> 00:03:32,340
+so you'll also notice here this is not
+
+81
+00:03:29,940 --> 00:03:34,739
+part of this top F statement because
+
+82
+00:03:32,340 --> 00:03:37,500
+there's no indentation here the
+
+83
+00:03:34,739 --> 00:03:40,500
+indentation and Nim is very important so
+
+84
+00:03:37,500 --> 00:03:42,540
+all of this is part of this if statement
+
+85
+00:03:40,500 --> 00:03:45,180
+but this is not part of this top if
+
+86
+00:03:42,540 --> 00:03:47,760
+statement because it is unindicted
+
+87
+00:03:45,180 --> 00:03:49,560
+always take note of your indentation if
+
+88
+00:03:47,760 --> 00:03:52,620
+you know if you're coming from python
+
+89
+00:03:49,560 --> 00:03:54,900
+it's the same concept what is indented
+
+90
+00:03:52,620 --> 00:03:56,220
+is important
+
+91
+00:03:54,900 --> 00:03:58,620
+all right
+
+92
+00:03:56,220 --> 00:04:00,060
+so now that we know that that this if
+
+93
+00:03:58,620 --> 00:04:02,760
+statement does not contain the save
+
+94
+00:04:00,060 --> 00:04:05,220
+statement they will run independently so
+
+95
+00:04:02,760 --> 00:04:07,379
+we were to go 20 this bottom one will
+
+96
+00:04:05,220 --> 00:04:10,379
+execute but not this top one
+
+97
+00:04:07,379 --> 00:04:13,700
+run it you may not enter
+
+98
+00:04:10,379 --> 00:04:16,620
+and here we will be saying
+
+99
+00:04:13,700 --> 00:04:18,299
+610 then the top one will execute but
+
+100
+00:04:16,620 --> 00:04:21,299
+not the bottom one
+
+101
+00:04:18,299 --> 00:04:23,040
+your elderly may not enter
+
+102
+00:04:21,299 --> 00:04:24,540
+now let's say if they are not one of
+
+103
+00:04:23,040 --> 00:04:26,460
+these two ages
+
+104
+00:04:24,540 --> 00:04:28,440
+they are allowed to enter because then
+
+105
+00:04:26,460 --> 00:04:31,620
+you can just say Echo
+
+106
+00:04:28,440 --> 00:04:34,259
+you may enter
+
+107
+00:04:31,620 --> 00:04:36,720
+but now we have a problem
+
+108
+00:04:34,259 --> 00:04:39,360
+we will now have to if we want to make
+
+109
+00:04:36,720 --> 00:04:41,880
+this one only executive D's are not true
+
+110
+00:04:39,360 --> 00:04:45,780
+we have to Dango if
+
+111
+00:04:41,880 --> 00:04:50,580
+H is more or equal to 21
+
+112
+00:04:45,780 --> 00:04:53,160
+or age is more equal to 60
+
+113
+00:04:50,580 --> 00:04:56,100
+or not more equal but I mean less or
+
+114
+00:04:53,160 --> 00:04:58,860
+equal to 60. then you may enter so now
+
+115
+00:04:56,100 --> 00:05:01,320
+we have three if statements one for if
+
+116
+00:04:58,860 --> 00:05:04,320
+they're older than 60 one if they're
+
+117
+00:05:01,320 --> 00:05:07,020
+younger than 21 and one if they're older
+
+118
+00:05:04,320 --> 00:05:11,400
+or the same age as 21
+
+119
+00:05:07,020 --> 00:05:15,620
+or younger or the same age as 60.
+
+120
+00:05:11,400 --> 00:05:18,600
+if we run this and let's say our guy is
+
+121
+00:05:15,620 --> 00:05:21,479
+32. now they are allowed to enter
+
+122
+00:05:18,600 --> 00:05:23,580
+because they are not older than 60 and
+
+123
+00:05:21,479 --> 00:05:25,560
+not younger than 21.
+
+124
+00:05:23,580 --> 00:05:28,259
+so if this or statement here we can
+
+125
+00:05:25,560 --> 00:05:30,660
+check if this is true
+
+126
+00:05:28,259 --> 00:05:32,520
+or if this is true and you can use
+
+127
+00:05:30,660 --> 00:05:35,100
+brackets to make it a little bit easier
+
+128
+00:05:32,520 --> 00:05:37,860
+because now you can see this goes first
+
+129
+00:05:35,100 --> 00:05:39,300
+then this it checks them so if either of
+
+130
+00:05:37,860 --> 00:05:41,759
+these
+
+131
+00:05:39,300 --> 00:05:43,560
+is true then this will execute but now
+
+132
+00:05:41,759 --> 00:05:48,780
+we have a problem
+
+133
+00:05:43,560 --> 00:05:51,720
+what if we were to say they are 302
+
+134
+00:05:48,780 --> 00:05:53,880
+will actually get your elderly may not
+
+135
+00:05:51,720 --> 00:05:55,860
+enter as well as you may enter
+
+136
+00:05:53,880 --> 00:05:58,500
+because all checks every one of these
+
+137
+00:05:55,860 --> 00:06:03,360
+two are true not if both are true
+
+138
+00:05:58,500 --> 00:06:05,280
+so if this is a True Value but this is a
+
+139
+00:06:03,360 --> 00:06:08,580
+false value
+
+140
+00:06:05,280 --> 00:06:10,620
+this will still execute because this one
+
+141
+00:06:08,580 --> 00:06:12,720
+is true so if yes
+
+142
+00:06:10,620 --> 00:06:14,639
+or no that's what you're basically
+
+143
+00:06:12,720 --> 00:06:18,539
+saying here so if either of these two
+
+144
+00:06:14,639 --> 00:06:21,360
+are yes true then print this out
+
+145
+00:06:18,539 --> 00:06:25,500
+if we were to say and instead then we'll
+
+146
+00:06:21,360 --> 00:06:28,440
+say if this is true and if this is true
+
+147
+00:06:25,500 --> 00:06:31,080
+then execute this so now we were to run
+
+148
+00:06:28,440 --> 00:06:31,979
+this we'll get your elderly may not
+
+149
+00:06:31,080 --> 00:06:34,800
+enter
+
+150
+00:06:31,979 --> 00:06:36,960
+but if we were to say 31 now
+
+151
+00:06:34,800 --> 00:06:39,240
+then we will not get that we'll just get
+
+152
+00:06:36,960 --> 00:06:41,699
+you may enter and if we were to make
+
+153
+00:06:39,240 --> 00:06:44,520
+them 18
+
+154
+00:06:41,699 --> 00:06:48,000
+then you may not enter cool so we have
+
+155
+00:06:44,520 --> 00:06:51,960
+just covered larger than larger than or
+
+156
+00:06:48,000 --> 00:06:55,020
+equal less than lesser than or equal
+
+157
+00:06:51,960 --> 00:06:56,280
+and and or
+
+158
+00:06:55,020 --> 00:06:58,380
+all right
+
+159
+00:06:56,280 --> 00:07:01,860
+now we can actually make this a little
+
+160
+00:06:58,380 --> 00:07:05,520
+bit less to work with for example we can
+
+161
+00:07:01,860 --> 00:07:08,699
+say alif and now these two are one if
+
+162
+00:07:05,520 --> 00:07:10,199
+statement but this one checks if this
+
+163
+00:07:08,699 --> 00:07:12,600
+executes
+
+164
+00:07:10,199 --> 00:07:15,060
+then this will not execute
+
+165
+00:07:12,600 --> 00:07:17,280
+if this does not execute then we'll try
+
+166
+00:07:15,060 --> 00:07:19,680
+and execute this but they cannot both be
+
+167
+00:07:17,280 --> 00:07:20,880
+executed at the same time to give an
+
+168
+00:07:19,680 --> 00:07:21,900
+example let's say we have this if
+
+169
+00:07:20,880 --> 00:07:25,800
+statement
+
+170
+00:07:21,900 --> 00:07:27,780
+and here we're saying after age
+
+171
+00:07:25,800 --> 00:07:29,400
+is less than
+
+172
+00:07:27,780 --> 00:07:31,800
+or actually let's go here let's say if
+
+173
+00:07:29,400 --> 00:07:33,660
+their age is more than 18 right just
+
+174
+00:07:31,800 --> 00:07:35,639
+ignore this piece of text here and if
+
+175
+00:07:33,660 --> 00:07:37,560
+your age is less than 21
+
+176
+00:07:35,639 --> 00:07:40,500
+now if we were to go here and we would
+
+177
+00:07:37,560 --> 00:07:42,060
+just say 20. so it will fill both of
+
+178
+00:07:40,500 --> 00:07:43,620
+these categories
+
+179
+00:07:42,060 --> 00:07:46,800
+we run it
+
+180
+00:07:43,620 --> 00:07:48,720
+then you get both of these values
+
+181
+00:07:46,800 --> 00:07:50,639
+however
+
+182
+00:07:48,720 --> 00:07:53,759
+if we were to say
+
+183
+00:07:50,639 --> 00:07:56,819
+L if which means else if
+
+184
+00:07:53,759 --> 00:07:59,759
+then only one of them can execute at a
+
+185
+00:07:56,819 --> 00:08:01,680
+time your elderly may not enter and the
+
+186
+00:07:59,759 --> 00:08:04,440
+one that executes is the one that gets
+
+187
+00:08:01,680 --> 00:08:07,560
+hit first so if we were to say
+
+188
+00:08:04,440 --> 00:08:10,380
+10. this one will not execute because 10
+
+189
+00:08:07,560 --> 00:08:12,660
+is less than 18. but this one will
+
+190
+00:08:10,380 --> 00:08:14,460
+execute so now if we run this you get
+
+191
+00:08:12,660 --> 00:08:17,699
+you may not enter
+
+192
+00:08:14,460 --> 00:08:20,879
+so just as an example that allows us to
+
+193
+00:08:17,699 --> 00:08:22,560
+have two if statements that does not get
+
+194
+00:08:20,879 --> 00:08:24,840
+in conflict with each other only one of
+
+195
+00:08:22,560 --> 00:08:26,940
+those two if statements can run
+
+196
+00:08:24,840 --> 00:08:29,520
+you can of course have as many else if
+
+197
+00:08:26,940 --> 00:08:31,259
+statements as you want you don't have
+
+198
+00:08:29,520 --> 00:08:34,260
+any limits but take note if one of them
+
+199
+00:08:31,259 --> 00:08:36,360
+gets executed the rest will be ignored
+
+200
+00:08:34,260 --> 00:08:38,459
+and take note all them should preferably
+
+201
+00:08:36,360 --> 00:08:44,399
+have a different value so this could be
+
+202
+00:08:38,459 --> 00:08:46,860
+22 23 24 25 and so on and so forth and
+
+203
+00:08:44,399 --> 00:08:49,500
+didn't all need to check age
+
+204
+00:08:46,860 --> 00:08:51,000
+one could check age the other one could
+
+205
+00:08:49,500 --> 00:08:53,519
+maybe check the name so here we could
+
+206
+00:08:51,000 --> 00:08:56,640
+say I'll say if name is equal to
+
+207
+00:08:53,519 --> 00:08:58,620
+Mike then you may not enter and that's
+
+208
+00:08:56,640 --> 00:09:00,000
+the wrong equal there that should be two
+
+209
+00:08:58,620 --> 00:09:02,040
+equals
+
+210
+00:09:00,000 --> 00:09:04,980
+I will get into that in a second
+
+211
+00:09:02,040 --> 00:09:07,140
+okay so now that we know that we can
+
+212
+00:09:04,980 --> 00:09:09,000
+actually use this to our advantage
+
+213
+00:09:07,140 --> 00:09:11,459
+now we have this if statement here at
+
+214
+00:09:09,000 --> 00:09:13,320
+the bottom the problem with this if
+
+215
+00:09:11,459 --> 00:09:15,600
+statement is every time we want to add
+
+216
+00:09:13,320 --> 00:09:17,279
+another check here we have to add it
+
+217
+00:09:15,600 --> 00:09:19,500
+here as well
+
+218
+00:09:17,279 --> 00:09:22,080
+but because if statements are so
+
+219
+00:09:19,500 --> 00:09:25,560
+powerful we can add in else statement at
+
+220
+00:09:22,080 --> 00:09:28,320
+the end remove this and there we go
+
+221
+00:09:25,560 --> 00:09:30,720
+now it's all one big if statement else
+
+222
+00:09:28,320 --> 00:09:33,480
+will execute and none of its upper
+
+223
+00:09:30,720 --> 00:09:35,940
+components executed so if you have a
+
+224
+00:09:33,480 --> 00:09:38,040
+hundred else if statements here if none
+
+225
+00:09:35,940 --> 00:09:40,800
+of them execute then else will execute
+
+226
+00:09:38,040 --> 00:09:43,800
+at the very end however if one of these
+
+227
+00:09:40,800 --> 00:09:46,800
+else ifs execute or if this if execute
+
+228
+00:09:43,800 --> 00:09:48,000
+else will not execute so this will only
+
+229
+00:09:46,800 --> 00:09:51,080
+execute
+
+230
+00:09:48,000 --> 00:09:54,120
+only run if
+
+231
+00:09:51,080 --> 00:09:55,380
+none of the other
+
+232
+00:09:54,120 --> 00:09:58,320
+if
+
+233
+00:09:55,380 --> 00:10:01,920
+or L if ran
+
+234
+00:09:58,320 --> 00:10:05,880
+so this and this did not run then run
+
+235
+00:10:01,920 --> 00:10:09,540
+else but if this ran skip these if this
+
+236
+00:10:05,880 --> 00:10:12,120
+ran skip this and skip this all right
+
+237
+00:10:09,540 --> 00:10:16,740
+now if you run this we'll get you may
+
+238
+00:10:12,120 --> 00:10:20,880
+not enter if we make them 39 they may
+
+239
+00:10:16,740 --> 00:10:22,140
+enter if you make them 90 they may not
+
+240
+00:10:20,880 --> 00:10:24,600
+enter
+
+241
+00:10:22,140 --> 00:10:27,180
+so it's basically what we had but now
+
+242
+00:10:24,600 --> 00:10:28,920
+there's less checks and we didn't have
+
+243
+00:10:27,180 --> 00:10:30,899
+to worry that one if statement will
+
+244
+00:10:28,920 --> 00:10:32,580
+execute when another should not be
+
+245
+00:10:30,899 --> 00:10:34,500
+executing because this one has already
+
+246
+00:10:32,580 --> 00:10:37,680
+executed
+
+247
+00:10:34,500 --> 00:10:39,899
+it's the same as getting else and then
+
+248
+00:10:37,680 --> 00:10:42,660
+doing this
+
+249
+00:10:39,899 --> 00:10:45,540
+instead of having to indent this and do
+
+250
+00:10:42,660 --> 00:10:48,180
+this we can just do this and I will make
+
+251
+00:10:45,540 --> 00:10:50,579
+it easier on us as well now let's say we
+
+252
+00:10:48,180 --> 00:10:53,940
+want to do a few extra checks here let's
+
+253
+00:10:50,579 --> 00:10:55,680
+say if they may enter you will want to
+
+254
+00:10:53,940 --> 00:11:00,660
+go
+
+255
+00:10:55,680 --> 00:11:05,579
+if name is equal to Jack
+
+256
+00:11:00,660 --> 00:11:08,579
+then 20 off all drinks
+
+257
+00:11:05,579 --> 00:11:10,920
+and we'll take this
+
+258
+00:11:08,579 --> 00:11:13,019
+so we're checking if their name is equal
+
+259
+00:11:10,920 --> 00:11:14,579
+to Jack do this
+
+260
+00:11:13,019 --> 00:11:16,800
+and then also do this because you have
+
+261
+00:11:14,579 --> 00:11:19,200
+to remember if something is not part of
+
+262
+00:11:16,800 --> 00:11:20,940
+an if statement it will still execute if
+
+263
+00:11:19,200 --> 00:11:22,440
+I go here let's say
+
+264
+00:11:20,940 --> 00:11:26,220
+echo1
+
+265
+00:11:22,440 --> 00:11:29,880
+and then I'll go here and say echo2 we
+
+266
+00:11:26,220 --> 00:11:31,740
+will always see echo1 and Echo 2. no
+
+267
+00:11:29,880 --> 00:11:33,660
+matter what this if statement says we
+
+268
+00:11:31,740 --> 00:11:37,440
+will always see this because these are
+
+269
+00:11:33,660 --> 00:11:40,260
+not part of the if statement
+
+270
+00:11:37,440 --> 00:11:42,420
+same applies here because this Echo is
+
+271
+00:11:40,260 --> 00:11:44,519
+not part of this if state if it wants to
+
+272
+00:11:42,420 --> 00:11:46,440
+be it needs to be indented
+
+273
+00:11:44,519 --> 00:11:48,959
+because this here is its own little
+
+274
+00:11:46,440 --> 00:11:50,579
+block scope same with this this is its
+
+275
+00:11:48,959 --> 00:11:53,279
+own block scope so if we were to go like
+
+276
+00:11:50,579 --> 00:11:54,899
+this then now this will be part of this
+
+277
+00:11:53,279 --> 00:11:57,540
+if statement and this if statement is
+
+278
+00:11:54,899 --> 00:12:01,980
+part of this else statement but they are
+
+279
+00:11:57,540 --> 00:12:04,380
+not part of this core code here
+
+280
+00:12:01,980 --> 00:12:07,200
+indentation is very important again
+
+281
+00:12:04,380 --> 00:12:10,140
+because this indentation says if
+
+282
+00:12:07,200 --> 00:12:12,540
+something is part of something else
+
+283
+00:12:10,140 --> 00:12:16,140
+this also shows you you can have an if
+
+284
+00:12:12,540 --> 00:12:19,079
+statement inside of another if statement
+
+285
+00:12:16,140 --> 00:12:22,620
+even up here we could say
+
+286
+00:12:19,079 --> 00:12:23,880
+if name is equal to Jack this could be a
+
+287
+00:12:22,620 --> 00:12:25,200
+special case
+
+288
+00:12:23,880 --> 00:12:26,579
+and then
+
+289
+00:12:25,200 --> 00:12:28,320
+Echo
+
+290
+00:12:26,579 --> 00:12:29,779
+you may
+
+291
+00:12:28,320 --> 00:12:34,380
+enter
+
+292
+00:12:29,779 --> 00:12:36,420
+you are a good customer there we go
+
+293
+00:12:34,380 --> 00:12:38,640
+so you can have an if statement within
+
+294
+00:12:36,420 --> 00:12:41,040
+another if statement now if we were to
+
+295
+00:12:38,640 --> 00:12:43,200
+run this we will get you may enter you
+
+296
+00:12:41,040 --> 00:12:45,360
+are a good customer and we'll still get
+
+297
+00:12:43,200 --> 00:12:49,019
+2 here because 2 and we'll just resize
+
+298
+00:12:45,360 --> 00:12:50,940
+this because 2 is still part of the
+
+299
+00:12:49,019 --> 00:12:53,459
+normal code it's not part of this if
+
+300
+00:12:50,940 --> 00:12:55,139
+statement if you were to indent it it
+
+301
+00:12:53,459 --> 00:12:56,279
+will be part of the if statement and it
+
+302
+00:12:55,139 --> 00:12:58,200
+will not run
+
+303
+00:12:56,279 --> 00:13:00,480
+all right but you'll notice we still get
+
+304
+00:12:58,200 --> 00:13:02,700
+your elderly may not enter
+
+305
+00:13:00,480 --> 00:13:05,339
+what we want to do here maybe is we
+
+306
+00:13:02,700 --> 00:13:07,440
+could say if name
+
+307
+00:13:05,339 --> 00:13:09,120
+okay so let's try adding a nautical if
+
+308
+00:13:07,440 --> 00:13:10,680
+it's not equal to Jack
+
+309
+00:13:09,120 --> 00:13:12,959
+Echo this
+
+310
+00:13:10,680 --> 00:13:15,240
+else this
+
+311
+00:13:12,959 --> 00:13:17,459
+so we have an if else in here of course
+
+312
+00:13:15,240 --> 00:13:18,959
+you could have said equals Jack
+
+313
+00:13:17,459 --> 00:13:21,720
+and you could do this
+
+314
+00:13:18,959 --> 00:13:24,300
+so this is if the name is Jack do this
+
+315
+00:13:21,720 --> 00:13:26,940
+but you could also do not equal so the
+
+316
+00:13:24,300 --> 00:13:29,399
+name is not equal to Jack do this and
+
+317
+00:13:26,940 --> 00:13:32,760
+take note of this equal symbol here
+
+318
+00:13:29,399 --> 00:13:34,500
+this is two equal symbols not one one
+
+319
+00:13:32,760 --> 00:13:38,040
+will reassign
+
+320
+00:13:34,500 --> 00:13:39,899
+two will check conditions this is a very
+
+321
+00:13:38,040 --> 00:13:41,940
+important distinction to make
+
+322
+00:13:39,899 --> 00:13:43,800
+now if we run this we get you may enter
+
+323
+00:13:41,940 --> 00:13:45,959
+you are a good customer
+
+324
+00:13:43,800 --> 00:13:47,820
+and in here we could say
+
+325
+00:13:45,959 --> 00:13:49,320
+let's say their name was
+
+326
+00:13:47,820 --> 00:13:53,459
+AC
+
+327
+00:13:49,320 --> 00:13:56,040
+then they say your elderly may not enter
+
+328
+00:13:53,459 --> 00:13:57,360
+let's say your name was Jack and they
+
+329
+00:13:56,040 --> 00:14:00,540
+were
+
+330
+00:13:57,360 --> 00:14:02,820
+38 so they are allowed to enter
+
+331
+00:14:00,540 --> 00:14:04,740
+then 30 percent of all drinks and you
+
+332
+00:14:02,820 --> 00:14:07,380
+may enter we might want to put the human
+
+333
+00:14:04,740 --> 00:14:09,420
+inter first and then say 20 off of all
+
+334
+00:14:07,380 --> 00:14:11,160
+drinks just to make it look like there's
+
+335
+00:14:09,420 --> 00:14:13,260
+actually some order here
+
+336
+00:14:11,160 --> 00:14:14,579
+if you run this then it will display in
+
+337
+00:14:13,260 --> 00:14:16,320
+that order
+
+338
+00:14:14,579 --> 00:14:18,540
+and if their name was not jacked they
+
+339
+00:14:16,320 --> 00:14:21,300
+will not receive that message to run
+
+340
+00:14:18,540 --> 00:14:22,620
+this you may enter but not 20 of all
+
+341
+00:14:21,300 --> 00:14:24,540
+drinks
+
+342
+00:14:22,620 --> 00:14:28,500
+now let's say if it's someone's birthday
+
+343
+00:14:24,540 --> 00:14:31,620
+they also get 20 percent of drinks
+
+344
+00:14:28,500 --> 00:14:33,240
+well if that is the case then we could
+
+345
+00:14:31,620 --> 00:14:36,720
+say
+
+346
+00:14:33,240 --> 00:14:38,519
+or birthday is equal to true
+
+347
+00:14:36,720 --> 00:14:42,600
+so now we're checking is their name Jack
+
+348
+00:14:38,519 --> 00:14:44,760
+or is their birthday today if it is then
+
+349
+00:14:42,600 --> 00:14:46,320
+print this so this is again an example
+
+350
+00:14:44,760 --> 00:14:48,959
+of an or statement
+
+351
+00:14:46,320 --> 00:14:51,899
+with this Boolean statement here we can
+
+352
+00:14:48,959 --> 00:14:53,399
+actually just go like this this means if
+
+353
+00:14:51,899 --> 00:14:55,380
+their name is Jack or if it's their
+
+354
+00:14:53,399 --> 00:14:56,339
+birthday because this is already true or
+
+355
+00:14:55,380 --> 00:14:58,740
+false
+
+356
+00:14:56,339 --> 00:15:00,779
+because going like this
+
+357
+00:14:58,740 --> 00:15:03,120
+is the same as not having that there
+
+358
+00:15:00,779 --> 00:15:04,380
+because it will still check if this is a
+
+359
+00:15:03,120 --> 00:15:06,360
+true value
+
+360
+00:15:04,380 --> 00:15:07,260
+so you can also do if it's not equal to
+
+361
+00:15:06,360 --> 00:15:11,279
+true
+
+362
+00:15:07,260 --> 00:15:14,820
+or if it is equal to false
+
+363
+00:15:11,279 --> 00:15:18,000
+or you could go or not birthday
+
+364
+00:15:14,820 --> 00:15:19,740
+not here tells us if this is a false
+
+365
+00:15:18,000 --> 00:15:22,320
+value then it will be represented as
+
+366
+00:15:19,740 --> 00:15:23,279
+true if you were to open up an M secret
+
+367
+00:15:22,320 --> 00:15:25,560
+here
+
+368
+00:15:23,279 --> 00:15:29,160
+which is a little command line and we
+
+369
+00:15:25,560 --> 00:15:31,680
+would say let X is equal to true
+
+370
+00:15:29,160 --> 00:15:33,420
+X is a true Boolean
+
+371
+00:15:31,680 --> 00:15:37,380
+not
+
+372
+00:15:33,420 --> 00:15:39,480
+X is false because if something is not
+
+373
+00:15:37,380 --> 00:15:43,199
+true it is false
+
+374
+00:15:39,480 --> 00:15:45,060
+not not X would be true because if
+
+375
+00:15:43,199 --> 00:15:48,540
+something because first here this is
+
+376
+00:15:45,060 --> 00:15:51,060
+true if it's not true it's false if it's
+
+377
+00:15:48,540 --> 00:15:53,880
+not false it's true
+
+378
+00:15:51,060 --> 00:15:55,860
+so not will allow us to flip it around
+
+379
+00:15:53,880 --> 00:15:57,600
+so if it's true it becomes false if it's
+
+380
+00:15:55,860 --> 00:16:00,360
+false it becomes true
+
+381
+00:15:57,600 --> 00:16:03,180
+all right so if your name is Jack or if
+
+382
+00:16:00,360 --> 00:16:04,620
+it's not their birthday they get 30 off
+
+383
+00:16:03,180 --> 00:16:05,639
+something you might want to take a look
+
+384
+00:16:04,620 --> 00:16:07,079
+at
+
+385
+00:16:05,639 --> 00:16:09,839
+now let's say
+
+386
+00:16:07,079 --> 00:16:11,760
+the name should either be Jack
+
+387
+00:16:09,839 --> 00:16:13,440
+or it's their birthday but they cannot
+
+388
+00:16:11,760 --> 00:16:17,519
+be both
+
+389
+00:16:13,440 --> 00:16:19,260
+so if I say xor birthday then it either
+
+390
+00:16:17,519 --> 00:16:20,940
+has to be their birthday or their name
+
+391
+00:16:19,260 --> 00:16:23,519
+should be Jack but if their name is Jack
+
+392
+00:16:20,940 --> 00:16:24,839
+and it's their birthday they are not
+
+393
+00:16:23,519 --> 00:16:27,000
+allowed to have a drink
+
+394
+00:16:24,839 --> 00:16:29,279
+but if it's their birthday
+
+395
+00:16:27,000 --> 00:16:31,139
+and their name is not Jack they are
+
+396
+00:16:29,279 --> 00:16:32,699
+allowed to have a drink for 20 off if
+
+397
+00:16:31,139 --> 00:16:34,199
+their name is Jack but it's not their
+
+398
+00:16:32,699 --> 00:16:36,899
+birthday they're allowed time to drive
+
+399
+00:16:34,199 --> 00:16:38,699
+for 20 percent off if you run this we'll
+
+400
+00:16:36,899 --> 00:16:41,220
+get what we expect
+
+401
+00:16:38,699 --> 00:16:42,720
+three percent of all drinks but if we
+
+402
+00:16:41,220 --> 00:16:45,660
+were to make their birthday false
+
+403
+00:16:42,720 --> 00:16:48,000
+meaning both of these will be false
+
+404
+00:16:45,660 --> 00:16:48,720
+then you may enter it will not execute
+
+405
+00:16:48,000 --> 00:16:50,880
+this
+
+406
+00:16:48,720 --> 00:16:53,339
+but if your name was Jack they will get
+
+407
+00:16:50,880 --> 00:16:55,620
+20 off their drinks but if their name is
+
+408
+00:16:53,339 --> 00:16:59,519
+Jack and it's their birthday
+
+409
+00:16:55,620 --> 00:17:01,560
+then they will not get 20 off all drinks
+
+410
+00:16:59,519 --> 00:17:03,120
+now let's say we check if it's their
+
+411
+00:17:01,560 --> 00:17:04,559
+birthday
+
+412
+00:17:03,120 --> 00:17:07,740
+and
+
+413
+00:17:04,559 --> 00:17:09,380
+if your name is equal to
+
+414
+00:17:07,740 --> 00:17:13,020
+Jack
+
+415
+00:17:09,380 --> 00:17:15,419
+or their age is more than 30. now this
+
+416
+00:17:13,020 --> 00:17:19,319
+is a little bit confusing because with
+
+417
+00:17:15,419 --> 00:17:21,780
+python or what Nim will do here
+
+418
+00:17:19,319 --> 00:17:24,419
+is Nim will first check is it your
+
+419
+00:17:21,780 --> 00:17:26,160
+birthday if this is true they will try
+
+420
+00:17:24,419 --> 00:17:28,919
+and check is their name equal to check
+
+421
+00:17:26,160 --> 00:17:31,200
+as well if this is true that if this is
+
+422
+00:17:28,919 --> 00:17:35,100
+true or this is true that's what Nim
+
+423
+00:17:31,200 --> 00:17:37,559
+will do so Nim will basically first run
+
+424
+00:17:35,100 --> 00:17:40,860
+this statement here the first statement
+
+425
+00:17:37,559 --> 00:17:43,500
+it sees so if this is true or if this is
+
+426
+00:17:40,860 --> 00:17:45,720
+true but in our case let's say we don't
+
+427
+00:17:43,500 --> 00:17:48,299
+care about this we just want to check
+
+428
+00:17:45,720 --> 00:17:51,059
+this and I will check if it's their
+
+429
+00:17:48,299 --> 00:17:53,760
+birthday and their name is Jack or their
+
+430
+00:17:51,059 --> 00:17:54,960
+age is more than 30. then it will Echo
+
+431
+00:17:53,760 --> 00:17:57,179
+this
+
+432
+00:17:54,960 --> 00:17:59,100
+but by default it will not do that so
+
+433
+00:17:57,179 --> 00:18:02,039
+you will need to use brackets to specify
+
+434
+00:17:59,100 --> 00:18:05,520
+what you want to be checked first if you
+
+435
+00:18:02,039 --> 00:18:07,200
+run this we get SAS because this
+
+436
+00:18:05,520 --> 00:18:09,600
+executed as true
+
+437
+00:18:07,200 --> 00:18:11,700
+cool now one more thing is you might
+
+438
+00:18:09,600 --> 00:18:15,960
+want to turn aerator operator
+
+439
+00:18:11,700 --> 00:18:17,640
+so let's go let's greet is equal to if
+
+440
+00:18:15,960 --> 00:18:19,620
+birthday
+
+441
+00:18:17,640 --> 00:18:24,900
+so if it's their birthday
+
+442
+00:18:19,620 --> 00:18:26,280
+then greed becomes happy birth day
+
+443
+00:18:24,900 --> 00:18:27,600
+else
+
+444
+00:18:26,280 --> 00:18:29,760
+welcome
+
+445
+00:18:27,600 --> 00:18:31,440
+so internet radio operator is when you
+
+446
+00:18:29,760 --> 00:18:34,679
+have this if statement but it's in one
+
+447
+00:18:31,440 --> 00:18:36,600
+line and returns a value in this case we
+
+448
+00:18:34,679 --> 00:18:41,039
+could have gone
+
+449
+00:18:36,600 --> 00:18:43,320
+VAR great is equal to welcome and then
+
+450
+00:18:41,039 --> 00:18:48,780
+we could have gone if
+
+451
+00:18:43,320 --> 00:18:51,419
+birthday then greet is equal to
+
+452
+00:18:48,780 --> 00:18:53,820
+happy birthday
+
+453
+00:18:51,419 --> 00:18:56,700
+we could have done this but as you see
+
+454
+00:18:53,820 --> 00:18:58,559
+now greed needs to be Evar
+
+455
+00:18:56,700 --> 00:19:00,299
+which you don't necessarily want you
+
+456
+00:18:58,559 --> 00:19:03,419
+might be like me and you want to stick
+
+457
+00:19:00,299 --> 00:19:06,179
+with lit as most match as possible
+
+458
+00:19:03,419 --> 00:19:08,039
+so first greed has to be a war plus this
+
+459
+00:19:06,179 --> 00:19:09,960
+takes up four lines including the
+
+460
+00:19:08,039 --> 00:19:12,120
+spacers but it could take a free
+
+461
+00:19:09,960 --> 00:19:13,380
+but this takes up four lines instead of
+
+462
+00:19:12,120 --> 00:19:15,000
+one line
+
+463
+00:19:13,380 --> 00:19:17,220
+and this actually might be a little bit
+
+464
+00:19:15,000 --> 00:19:18,360
+more difficult to read than this inline
+
+465
+00:19:17,220 --> 00:19:20,400
+if statement
+
+466
+00:19:18,360 --> 00:19:22,919
+so you might actually see more use in
+
+467
+00:19:20,400 --> 00:19:25,679
+having this turnario operator around
+
+468
+00:19:22,919 --> 00:19:28,320
+then using a normal if statement but
+
+469
+00:19:25,679 --> 00:19:30,900
+this is up to you if you prefer to use a
+
+470
+00:19:28,320 --> 00:19:32,940
+ternary operator above a normal if
+
+471
+00:19:30,900 --> 00:19:35,220
+statement then use it just don't go too
+
+472
+00:19:32,940 --> 00:19:37,200
+overboard because they become very
+
+473
+00:19:35,220 --> 00:19:39,539
+difficult to read very fast but with
+
+474
+00:19:37,200 --> 00:19:41,520
+Basics scenarios like this it is one of
+
+475
+00:19:39,539 --> 00:19:43,679
+the best things in the world and now we
+
+476
+00:19:41,520 --> 00:19:46,919
+get happy birthday able to make this
+
+477
+00:19:43,679 --> 00:19:48,240
+false we will get welcome
+
+478
+00:19:46,919 --> 00:19:50,220
+cool
+
+479
+00:19:48,240 --> 00:19:52,620
+and that's the basics on if statement
+
+480
+00:19:50,220 --> 00:19:53,760
+quite a lot to cover quite a lot to
+
+481
+00:19:52,620 --> 00:19:55,679
+remember
+
+482
+00:19:53,760 --> 00:19:58,440
+but I hope you all enjoyed and I will
+
+483
+00:19:55,679 --> 00:20:01,100
+see you all again in the next Nim
+
+484
+00:19:58,440 --> 00:20:01,100
+tutorial
+

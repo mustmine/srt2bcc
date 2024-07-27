@@ -1,0 +1,2919 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "stroke": "none",
+    "body": [
+        {
+            "from": 1.56,
+            "to": 4.56,
+            "location": 2,
+            "content": "foreign"
+        },
+        {
+            "from": 14.24,
+            "to": 20.58,
+            "location": 2,
+            "content": "welcome back to another name tutorial"
+        },
+        {
+            "from": 18.42,
+            "to": 23.76,
+            "location": 2,
+            "content": "in this tutorial we'll be talking about"
+        },
+        {
+            "from": 20.58,
+            "to": 26.46,
+            "location": 2,
+            "content": "if statements if statements are used to"
+        },
+        {
+            "from": 23.76,
+            "to": 29.46,
+            "location": 2,
+            "content": "add logic to your program you can make"
+        },
+        {
+            "from": 26.46,
+            "to": 31.019,
+            "location": 2,
+            "content": "your program make decisions for example"
+        },
+        {
+            "from": 29.46,
+            "to": 31.859,
+            "location": 2,
+            "content": "when you go to the store and you're like"
+        },
+        {
+            "from": 31.019,
+            "to": 33.899,
+            "location": 2,
+            "content": "hmm"
+        },
+        {
+            "from": 31.859,
+            "to": 35.52,
+            "location": 2,
+            "content": "should I buy"
+        },
+        {
+            "from": 33.899,
+            "to": 38.399,
+            "location": 2,
+            "content": "the bar one"
+        },
+        {
+            "from": 35.52,
+            "to": 40.44,
+            "location": 2,
+            "content": "or the lunch bar"
+        },
+        {
+            "from": 38.399,
+            "to": 42.18,
+            "location": 2,
+            "content": "that's a choice you have to make you can"
+        },
+        {
+            "from": 40.44,
+            "to": 43.559,
+            "location": 2,
+            "content": "even write a program to make that choice"
+        },
+        {
+            "from": 42.18,
+            "to": 45.42,
+            "location": 2,
+            "content": "for you"
+        },
+        {
+            "from": 43.559,
+            "to": 48.059,
+            "location": 2,
+            "content": "and this is where programming really"
+        },
+        {
+            "from": 45.42,
+            "to": 50.52,
+            "location": 2,
+            "content": "starts to become incredibly powerful"
+        },
+        {
+            "from": 48.059,
+            "to": 51.719,
+            "location": 2,
+            "content": "not only to cover all of these in a"
+        },
+        {
+            "from": 50.52,
+            "to": 53.82,
+            "location": 2,
+            "content": "physical manner so I'm just going to"
+        },
+        {
+            "from": 51.719,
+            "to": 55.5,
+            "location": 2,
+            "content": "give them all to you right now so these"
+        },
+        {
+            "from": 53.82,
+            "to": 59.039,
+            "location": 2,
+            "content": "are all the type of operations you can"
+        },
+        {
+            "from": 55.5,
+            "to": 60.3,
+            "location": 2,
+            "content": "do larger than lesser than larger than"
+        },
+        {
+            "from": 59.039,
+            "to": 62.699,
+            "location": 2,
+            "content": "equal"
+        },
+        {
+            "from": 60.3,
+            "to": 65.88,
+            "location": 2,
+            "content": "lesser than or equal"
+        },
+        {
+            "from": 62.699,
+            "to": 68.52,
+            "location": 2,
+            "content": "you also have equal not equal and we'll"
+        },
+        {
+            "from": 65.88,
+            "to": 70.5,
+            "location": 2,
+            "content": "use a few of them to give you an example"
+        },
+        {
+            "from": 68.52,
+            "to": 72.0,
+            "location": 2,
+            "content": "and then finally"
+        },
+        {
+            "from": 70.5,
+            "to": 74.15900000000001,
+            "location": 2,
+            "content": "and"
+        },
+        {
+            "from": 72.0,
+            "to": 77.45999999999999,
+            "location": 2,
+            "content": "or not"
+        },
+        {
+            "from": 74.15900000000001,
+            "to": 79.14,
+            "location": 2,
+            "content": "as well as xor and we'll get into what"
+        },
+        {
+            "from": 77.45999999999999,
+            "to": 81.42,
+            "location": 2,
+            "content": "all of these does except for xor this"
+        },
+        {
+            "from": 79.14,
+            "to": 83.64,
+            "location": 2,
+            "content": "basically returns true if one of the"
+        },
+        {
+            "from": 81.42,
+            "to": 85.2,
+            "location": 2,
+            "content": "conditions are false and the other is"
+        },
+        {
+            "from": 83.64,
+            "to": 87.18000000000001,
+            "location": 2,
+            "content": "true"
+        },
+        {
+            "from": 85.2,
+            "to": 88.73999999999999,
+            "location": 2,
+            "content": "which can be useful if you have a"
+        },
+        {
+            "from": 87.18000000000001,
+            "to": 90.29900000000001,
+            "location": 2,
+            "content": "scenario for it"
+        },
+        {
+            "from": 88.73999999999999,
+            "to": 91.68000000000001,
+            "location": 2,
+            "content": "all right so let's declare a few"
+        },
+        {
+            "from": 90.29900000000001,
+            "to": 94.64,
+            "location": 2,
+            "content": "variables"
+        },
+        {
+            "from": 91.68000000000001,
+            "to": 98.04000000000001,
+            "location": 2,
+            "content": "so we have age is equal to 24"
+        },
+        {
+            "from": 94.64,
+            "to": 100.14,
+            "location": 2,
+            "content": "name is equal to Jack"
+        },
+        {
+            "from": 98.04000000000001,
+            "to": 102.96,
+            "location": 2,
+            "content": "and birthday"
+        },
+        {
+            "from": 100.14,
+            "to": 105.72,
+            "location": 2,
+            "content": "is equal to true"
+        },
+        {
+            "from": 102.96,
+            "to": 109.74,
+            "location": 2,
+            "content": "cool so we have an integer age a string"
+        },
+        {
+            "from": 105.72,
+            "to": 114.06,
+            "location": 2,
+            "content": "Jack and a Boolean yes or no true"
+        },
+        {
+            "from": 109.74,
+            "to": 116.82,
+            "location": 2,
+            "content": "cool now let's say we have a bar now"
+        },
+        {
+            "from": 114.06,
+            "to": 120.24,
+            "location": 2,
+            "content": "let's first say if someone is under the"
+        },
+        {
+            "from": 116.82,
+            "to": 124.399,
+            "location": 2,
+            "content": "age of 21 they are not allowed to enter"
+        },
+        {
+            "from": 120.24,
+            "to": 131.52,
+            "location": 2,
+            "content": "this bar then we can check if their age"
+        },
+        {
+            "from": 124.399,
+            "to": 132.66,
+            "location": 2,
+            "content": "is less than 21. then Echo you may not"
+        },
+        {
+            "from": 131.52,
+            "to": 134.7,
+            "location": 2,
+            "content": "enter"
+        },
+        {
+            "from": 132.66,
+            "to": 136.68,
+            "location": 2,
+            "content": "or enter"
+        },
+        {
+            "from": 134.7,
+            "to": 138.78,
+            "location": 2,
+            "content": "so here we're checking if this variable"
+        },
+        {
+            "from": 136.68,
+            "to": 140.76,
+            "location": 2,
+            "content": "age is less than 21 we could have even"
+        },
+        {
+            "from": 138.78,
+            "to": 143.16,
+            "location": 2,
+            "content": "put a normal number here like 24 that's"
+        },
+        {
+            "from": 140.76,
+            "to": 146.239,
+            "location": 2,
+            "content": "perfectly fine anyhow so we're checking"
+        },
+        {
+            "from": 143.16,
+            "to": 150.36,
+            "location": 2,
+            "content": "is this less than this if it is Princess"
+        },
+        {
+            "from": 146.239,
+            "to": 152.099,
+            "location": 2,
+            "content": "let's make the age 10 for now"
+        },
+        {
+            "from": 150.36,
+            "to": 155.04,
+            "location": 2,
+            "content": "if we run this"
+        },
+        {
+            "from": 152.099,
+            "to": 158.16,
+            "location": 2,
+            "content": "we will get you may not enter"
+        },
+        {
+            "from": 155.04,
+            "to": 161.4,
+            "location": 2,
+            "content": "but if we were to say 21 because this is"
+        },
+        {
+            "from": 158.16,
+            "to": 164.4,
+            "location": 2,
+            "content": "any checking for less than 21. so 21 and"
+        },
+        {
+            "from": 161.4,
+            "to": 167.519,
+            "location": 2,
+            "content": "older is perfectly fine so if we run"
+        },
+        {
+            "from": 164.4,
+            "to": 170.16,
+            "location": 2,
+            "content": "this you'll see we don't get an output"
+        },
+        {
+            "from": 167.519,
+            "to": 173.28,
+            "location": 2,
+            "content": "so just by using an if statement we've"
+        },
+        {
+            "from": 170.16,
+            "to": 175.92,
+            "location": 2,
+            "content": "told our program to only do something if"
+        },
+        {
+            "from": 173.28,
+            "to": 178.26,
+            "location": 2,
+            "content": "it meets a specific condition"
+        },
+        {
+            "from": 175.92,
+            "to": 180.0,
+            "location": 2,
+            "content": "now let's say if someone's too old"
+        },
+        {
+            "from": 178.26,
+            "to": 181.44,
+            "location": 2,
+            "content": "they're also not allowed to enter so we"
+        },
+        {
+            "from": 180.0,
+            "to": 184.319,
+            "location": 2,
+            "content": "can say if age"
+        },
+        {
+            "from": 181.44,
+            "to": 185.58,
+            "location": 2,
+            "content": "is more than 60 so if they're older than"
+        },
+        {
+            "from": 184.319,
+            "to": 187.26,
+            "location": 2,
+            "content": "60"
+        },
+        {
+            "from": 185.58,
+            "to": 188.7,
+            "location": 2,
+            "content": "then you should tell them"
+        },
+        {
+            "from": 187.26,
+            "to": 192.0,
+            "location": 2,
+            "content": "Echo"
+        },
+        {
+            "from": 188.7,
+            "to": 193.8,
+            "location": 2,
+            "content": "you are elderly"
+        },
+        {
+            "from": 192.0,
+            "to": 195.239,
+            "location": 2,
+            "content": "may not"
+        },
+        {
+            "from": 193.8,
+            "to": 198.0,
+            "location": 2,
+            "content": "enter"
+        },
+        {
+            "from": 195.239,
+            "to": 199.56,
+            "location": 2,
+            "content": "cool so now we have two if statements"
+        },
+        {
+            "from": 198.0,
+            "to": 202.08,
+            "location": 2,
+            "content": "here and take note of the indentation"
+        },
+        {
+            "from": 199.56,
+            "to": 204.54,
+            "location": 2,
+            "content": "here that's actually important if you"
+        },
+        {
+            "from": 202.08,
+            "to": 207.18,
+            "location": 2,
+            "content": "just do this it might for an error at"
+        },
+        {
+            "from": 204.54,
+            "to": 209.94,
+            "location": 2,
+            "content": "you indentation is important"
+        },
+        {
+            "from": 207.18,
+            "to": 212.34,
+            "location": 2,
+            "content": "so you'll also notice here this is not"
+        },
+        {
+            "from": 209.94,
+            "to": 214.739,
+            "location": 2,
+            "content": "part of this top F statement because"
+        },
+        {
+            "from": 212.34,
+            "to": 217.5,
+            "location": 2,
+            "content": "there's no indentation here the"
+        },
+        {
+            "from": 214.739,
+            "to": 220.5,
+            "location": 2,
+            "content": "indentation and Nim is very important so"
+        },
+        {
+            "from": 217.5,
+            "to": 222.54,
+            "location": 2,
+            "content": "all of this is part of this if statement"
+        },
+        {
+            "from": 220.5,
+            "to": 225.18,
+            "location": 2,
+            "content": "but this is not part of this top if"
+        },
+        {
+            "from": 222.54,
+            "to": 227.76,
+            "location": 2,
+            "content": "statement because it is unindicted"
+        },
+        {
+            "from": 225.18,
+            "to": 229.56,
+            "location": 2,
+            "content": "always take note of your indentation if"
+        },
+        {
+            "from": 227.76,
+            "to": 232.62,
+            "location": 2,
+            "content": "you know if you're coming from python"
+        },
+        {
+            "from": 229.56,
+            "to": 234.9,
+            "location": 2,
+            "content": "it's the same concept what is indented"
+        },
+        {
+            "from": 232.62,
+            "to": 236.22,
+            "location": 2,
+            "content": "is important"
+        },
+        {
+            "from": 234.9,
+            "to": 238.62,
+            "location": 2,
+            "content": "all right"
+        },
+        {
+            "from": 236.22,
+            "to": 240.06,
+            "location": 2,
+            "content": "so now that we know that that this if"
+        },
+        {
+            "from": 238.62,
+            "to": 242.76,
+            "location": 2,
+            "content": "statement does not contain the save"
+        },
+        {
+            "from": 240.06,
+            "to": 245.22,
+            "location": 2,
+            "content": "statement they will run independently so"
+        },
+        {
+            "from": 242.76,
+            "to": 247.379,
+            "location": 2,
+            "content": "we were to go 20 this bottom one will"
+        },
+        {
+            "from": 245.22,
+            "to": 250.379,
+            "location": 2,
+            "content": "execute but not this top one"
+        },
+        {
+            "from": 247.379,
+            "to": 253.7,
+            "location": 2,
+            "content": "run it you may not enter"
+        },
+        {
+            "from": 250.379,
+            "to": 256.62,
+            "location": 2,
+            "content": "and here we will be saying"
+        },
+        {
+            "from": 253.7,
+            "to": 258.299,
+            "location": 2,
+            "content": "610 then the top one will execute but"
+        },
+        {
+            "from": 256.62,
+            "to": 261.299,
+            "location": 2,
+            "content": "not the bottom one"
+        },
+        {
+            "from": 258.299,
+            "to": 263.04,
+            "location": 2,
+            "content": "your elderly may not enter"
+        },
+        {
+            "from": 261.299,
+            "to": 264.54,
+            "location": 2,
+            "content": "now let's say if they are not one of"
+        },
+        {
+            "from": 263.04,
+            "to": 266.46,
+            "location": 2,
+            "content": "these two ages"
+        },
+        {
+            "from": 264.54,
+            "to": 268.44,
+            "location": 2,
+            "content": "they are allowed to enter because then"
+        },
+        {
+            "from": 266.46,
+            "to": 271.62,
+            "location": 2,
+            "content": "you can just say Echo"
+        },
+        {
+            "from": 268.44,
+            "to": 274.259,
+            "location": 2,
+            "content": "you may enter"
+        },
+        {
+            "from": 271.62,
+            "to": 276.72,
+            "location": 2,
+            "content": "but now we have a problem"
+        },
+        {
+            "from": 274.259,
+            "to": 279.36,
+            "location": 2,
+            "content": "we will now have to if we want to make"
+        },
+        {
+            "from": 276.72,
+            "to": 281.88,
+            "location": 2,
+            "content": "this one only executive D's are not true"
+        },
+        {
+            "from": 279.36,
+            "to": 285.78,
+            "location": 2,
+            "content": "we have to Dango if"
+        },
+        {
+            "from": 281.88,
+            "to": 290.58,
+            "location": 2,
+            "content": "H is more or equal to 21"
+        },
+        {
+            "from": 285.78,
+            "to": 293.16,
+            "location": 2,
+            "content": "or age is more equal to 60"
+        },
+        {
+            "from": 290.58,
+            "to": 296.1,
+            "location": 2,
+            "content": "or not more equal but I mean less or"
+        },
+        {
+            "from": 293.16,
+            "to": 298.86,
+            "location": 2,
+            "content": "equal to 60. then you may enter so now"
+        },
+        {
+            "from": 296.1,
+            "to": 301.32,
+            "location": 2,
+            "content": "we have three if statements one for if"
+        },
+        {
+            "from": 298.86,
+            "to": 304.32,
+            "location": 2,
+            "content": "they're older than 60 one if they're"
+        },
+        {
+            "from": 301.32,
+            "to": 307.02,
+            "location": 2,
+            "content": "younger than 21 and one if they're older"
+        },
+        {
+            "from": 304.32,
+            "to": 311.4,
+            "location": 2,
+            "content": "or the same age as 21"
+        },
+        {
+            "from": 307.02,
+            "to": 315.62,
+            "location": 2,
+            "content": "or younger or the same age as 60."
+        },
+        {
+            "from": 311.4,
+            "to": 318.6,
+            "location": 2,
+            "content": "if we run this and let's say our guy is"
+        },
+        {
+            "from": 315.62,
+            "to": 321.479,
+            "location": 2,
+            "content": "32. now they are allowed to enter"
+        },
+        {
+            "from": 318.6,
+            "to": 323.58,
+            "location": 2,
+            "content": "because they are not older than 60 and"
+        },
+        {
+            "from": 321.479,
+            "to": 325.56,
+            "location": 2,
+            "content": "not younger than 21."
+        },
+        {
+            "from": 323.58,
+            "to": 328.259,
+            "location": 2,
+            "content": "so if this or statement here we can"
+        },
+        {
+            "from": 325.56,
+            "to": 330.66,
+            "location": 2,
+            "content": "check if this is true"
+        },
+        {
+            "from": 328.259,
+            "to": 332.52,
+            "location": 2,
+            "content": "or if this is true and you can use"
+        },
+        {
+            "from": 330.66,
+            "to": 335.1,
+            "location": 2,
+            "content": "brackets to make it a little bit easier"
+        },
+        {
+            "from": 332.52,
+            "to": 337.86,
+            "location": 2,
+            "content": "because now you can see this goes first"
+        },
+        {
+            "from": 335.1,
+            "to": 339.3,
+            "location": 2,
+            "content": "then this it checks them so if either of"
+        },
+        {
+            "from": 337.86,
+            "to": 341.759,
+            "location": 2,
+            "content": "these"
+        },
+        {
+            "from": 339.3,
+            "to": 343.56,
+            "location": 2,
+            "content": "is true then this will execute but now"
+        },
+        {
+            "from": 341.759,
+            "to": 348.78,
+            "location": 2,
+            "content": "we have a problem"
+        },
+        {
+            "from": 343.56,
+            "to": 351.72,
+            "location": 2,
+            "content": "what if we were to say they are 302"
+        },
+        {
+            "from": 348.78,
+            "to": 353.88,
+            "location": 2,
+            "content": "will actually get your elderly may not"
+        },
+        {
+            "from": 351.72,
+            "to": 355.86,
+            "location": 2,
+            "content": "enter as well as you may enter"
+        },
+        {
+            "from": 353.88,
+            "to": 358.5,
+            "location": 2,
+            "content": "because all checks every one of these"
+        },
+        {
+            "from": 355.86,
+            "to": 363.36,
+            "location": 2,
+            "content": "two are true not if both are true"
+        },
+        {
+            "from": 358.5,
+            "to": 365.28,
+            "location": 2,
+            "content": "so if this is a True Value but this is a"
+        },
+        {
+            "from": 363.36,
+            "to": 368.58,
+            "location": 2,
+            "content": "false value"
+        },
+        {
+            "from": 365.28,
+            "to": 370.62,
+            "location": 2,
+            "content": "this will still execute because this one"
+        },
+        {
+            "from": 368.58,
+            "to": 372.72,
+            "location": 2,
+            "content": "is true so if yes"
+        },
+        {
+            "from": 370.62,
+            "to": 374.639,
+            "location": 2,
+            "content": "or no that's what you're basically"
+        },
+        {
+            "from": 372.72,
+            "to": 378.539,
+            "location": 2,
+            "content": "saying here so if either of these two"
+        },
+        {
+            "from": 374.639,
+            "to": 381.36,
+            "location": 2,
+            "content": "are yes true then print this out"
+        },
+        {
+            "from": 378.539,
+            "to": 385.5,
+            "location": 2,
+            "content": "if we were to say and instead then we'll"
+        },
+        {
+            "from": 381.36,
+            "to": 388.44,
+            "location": 2,
+            "content": "say if this is true and if this is true"
+        },
+        {
+            "from": 385.5,
+            "to": 391.08,
+            "location": 2,
+            "content": "then execute this so now we were to run"
+        },
+        {
+            "from": 388.44,
+            "to": 391.979,
+            "location": 2,
+            "content": "this we'll get your elderly may not"
+        },
+        {
+            "from": 391.08,
+            "to": 394.8,
+            "location": 2,
+            "content": "enter"
+        },
+        {
+            "from": 391.979,
+            "to": 396.96,
+            "location": 2,
+            "content": "but if we were to say 31 now"
+        },
+        {
+            "from": 394.8,
+            "to": 399.24,
+            "location": 2,
+            "content": "then we will not get that we'll just get"
+        },
+        {
+            "from": 396.96,
+            "to": 401.699,
+            "location": 2,
+            "content": "you may enter and if we were to make"
+        },
+        {
+            "from": 399.24,
+            "to": 404.52,
+            "location": 2,
+            "content": "them 18"
+        },
+        {
+            "from": 401.699,
+            "to": 408.0,
+            "location": 2,
+            "content": "then you may not enter cool so we have"
+        },
+        {
+            "from": 404.52,
+            "to": 411.96,
+            "location": 2,
+            "content": "just covered larger than larger than or"
+        },
+        {
+            "from": 408.0,
+            "to": 415.02,
+            "location": 2,
+            "content": "equal less than lesser than or equal"
+        },
+        {
+            "from": 411.96,
+            "to": 416.28,
+            "location": 2,
+            "content": "and and or"
+        },
+        {
+            "from": 415.02,
+            "to": 418.38,
+            "location": 2,
+            "content": "all right"
+        },
+        {
+            "from": 416.28,
+            "to": 421.86,
+            "location": 2,
+            "content": "now we can actually make this a little"
+        },
+        {
+            "from": 418.38,
+            "to": 425.52,
+            "location": 2,
+            "content": "bit less to work with for example we can"
+        },
+        {
+            "from": 421.86,
+            "to": 428.699,
+            "location": 2,
+            "content": "say alif and now these two are one if"
+        },
+        {
+            "from": 425.52,
+            "to": 430.199,
+            "location": 2,
+            "content": "statement but this one checks if this"
+        },
+        {
+            "from": 428.699,
+            "to": 432.6,
+            "location": 2,
+            "content": "executes"
+        },
+        {
+            "from": 430.199,
+            "to": 435.06,
+            "location": 2,
+            "content": "then this will not execute"
+        },
+        {
+            "from": 432.6,
+            "to": 437.28,
+            "location": 2,
+            "content": "if this does not execute then we'll try"
+        },
+        {
+            "from": 435.06,
+            "to": 439.68,
+            "location": 2,
+            "content": "and execute this but they cannot both be"
+        },
+        {
+            "from": 437.28,
+            "to": 440.88,
+            "location": 2,
+            "content": "executed at the same time to give an"
+        },
+        {
+            "from": 439.68,
+            "to": 441.9,
+            "location": 2,
+            "content": "example let's say we have this if"
+        },
+        {
+            "from": 440.88,
+            "to": 445.8,
+            "location": 2,
+            "content": "statement"
+        },
+        {
+            "from": 441.9,
+            "to": 447.78,
+            "location": 2,
+            "content": "and here we're saying after age"
+        },
+        {
+            "from": 445.8,
+            "to": 449.4,
+            "location": 2,
+            "content": "is less than"
+        },
+        {
+            "from": 447.78,
+            "to": 451.8,
+            "location": 2,
+            "content": "or actually let's go here let's say if"
+        },
+        {
+            "from": 449.4,
+            "to": 453.66,
+            "location": 2,
+            "content": "their age is more than 18 right just"
+        },
+        {
+            "from": 451.8,
+            "to": 455.639,
+            "location": 2,
+            "content": "ignore this piece of text here and if"
+        },
+        {
+            "from": 453.66,
+            "to": 457.56,
+            "location": 2,
+            "content": "your age is less than 21"
+        },
+        {
+            "from": 455.639,
+            "to": 460.5,
+            "location": 2,
+            "content": "now if we were to go here and we would"
+        },
+        {
+            "from": 457.56,
+            "to": 462.06,
+            "location": 2,
+            "content": "just say 20. so it will fill both of"
+        },
+        {
+            "from": 460.5,
+            "to": 463.62,
+            "location": 2,
+            "content": "these categories"
+        },
+        {
+            "from": 462.06,
+            "to": 466.8,
+            "location": 2,
+            "content": "we run it"
+        },
+        {
+            "from": 463.62,
+            "to": 468.72,
+            "location": 2,
+            "content": "then you get both of these values"
+        },
+        {
+            "from": 466.8,
+            "to": 470.639,
+            "location": 2,
+            "content": "however"
+        },
+        {
+            "from": 468.72,
+            "to": 473.759,
+            "location": 2,
+            "content": "if we were to say"
+        },
+        {
+            "from": 470.639,
+            "to": 476.819,
+            "location": 2,
+            "content": "L if which means else if"
+        },
+        {
+            "from": 473.759,
+            "to": 479.759,
+            "location": 2,
+            "content": "then only one of them can execute at a"
+        },
+        {
+            "from": 476.819,
+            "to": 481.68,
+            "location": 2,
+            "content": "time your elderly may not enter and the"
+        },
+        {
+            "from": 479.759,
+            "to": 484.44,
+            "location": 2,
+            "content": "one that executes is the one that gets"
+        },
+        {
+            "from": 481.68,
+            "to": 487.56,
+            "location": 2,
+            "content": "hit first so if we were to say"
+        },
+        {
+            "from": 484.44,
+            "to": 490.38,
+            "location": 2,
+            "content": "10. this one will not execute because 10"
+        },
+        {
+            "from": 487.56,
+            "to": 492.66,
+            "location": 2,
+            "content": "is less than 18. but this one will"
+        },
+        {
+            "from": 490.38,
+            "to": 494.46,
+            "location": 2,
+            "content": "execute so now if we run this you get"
+        },
+        {
+            "from": 492.66,
+            "to": 497.699,
+            "location": 2,
+            "content": "you may not enter"
+        },
+        {
+            "from": 494.46,
+            "to": 500.879,
+            "location": 2,
+            "content": "so just as an example that allows us to"
+        },
+        {
+            "from": 497.699,
+            "to": 502.56,
+            "location": 2,
+            "content": "have two if statements that does not get"
+        },
+        {
+            "from": 500.879,
+            "to": 504.84,
+            "location": 2,
+            "content": "in conflict with each other only one of"
+        },
+        {
+            "from": 502.56,
+            "to": 506.94,
+            "location": 2,
+            "content": "those two if statements can run"
+        },
+        {
+            "from": 504.84,
+            "to": 509.52,
+            "location": 2,
+            "content": "you can of course have as many else if"
+        },
+        {
+            "from": 506.94,
+            "to": 511.259,
+            "location": 2,
+            "content": "statements as you want you don't have"
+        },
+        {
+            "from": 509.52,
+            "to": 514.26,
+            "location": 2,
+            "content": "any limits but take note if one of them"
+        },
+        {
+            "from": 511.259,
+            "to": 516.36,
+            "location": 2,
+            "content": "gets executed the rest will be ignored"
+        },
+        {
+            "from": 514.26,
+            "to": 518.4589999999999,
+            "location": 2,
+            "content": "and take note all them should preferably"
+        },
+        {
+            "from": 516.36,
+            "to": 524.399,
+            "location": 2,
+            "content": "have a different value so this could be"
+        },
+        {
+            "from": 518.4589999999999,
+            "to": 526.86,
+            "location": 2,
+            "content": "22 23 24 25 and so on and so forth and"
+        },
+        {
+            "from": 524.399,
+            "to": 529.5,
+            "location": 2,
+            "content": "didn't all need to check age"
+        },
+        {
+            "from": 526.86,
+            "to": 531.0,
+            "location": 2,
+            "content": "one could check age the other one could"
+        },
+        {
+            "from": 529.5,
+            "to": 533.519,
+            "location": 2,
+            "content": "maybe check the name so here we could"
+        },
+        {
+            "from": 531.0,
+            "to": 536.64,
+            "location": 2,
+            "content": "say I'll say if name is equal to"
+        },
+        {
+            "from": 533.519,
+            "to": 538.62,
+            "location": 2,
+            "content": "Mike then you may not enter and that's"
+        },
+        {
+            "from": 536.64,
+            "to": 540.0,
+            "location": 2,
+            "content": "the wrong equal there that should be two"
+        },
+        {
+            "from": 538.62,
+            "to": 542.04,
+            "location": 2,
+            "content": "equals"
+        },
+        {
+            "from": 540.0,
+            "to": 544.98,
+            "location": 2,
+            "content": "I will get into that in a second"
+        },
+        {
+            "from": 542.04,
+            "to": 547.14,
+            "location": 2,
+            "content": "okay so now that we know that we can"
+        },
+        {
+            "from": 544.98,
+            "to": 549.0,
+            "location": 2,
+            "content": "actually use this to our advantage"
+        },
+        {
+            "from": 547.14,
+            "to": 551.4589999999999,
+            "location": 2,
+            "content": "now we have this if statement here at"
+        },
+        {
+            "from": 549.0,
+            "to": 553.3200000000001,
+            "location": 2,
+            "content": "the bottom the problem with this if"
+        },
+        {
+            "from": 551.4589999999999,
+            "to": 555.6,
+            "location": 2,
+            "content": "statement is every time we want to add"
+        },
+        {
+            "from": 553.3200000000001,
+            "to": 557.279,
+            "location": 2,
+            "content": "another check here we have to add it"
+        },
+        {
+            "from": 555.6,
+            "to": 559.5,
+            "location": 2,
+            "content": "here as well"
+        },
+        {
+            "from": 557.279,
+            "to": 562.08,
+            "location": 2,
+            "content": "but because if statements are so"
+        },
+        {
+            "from": 559.5,
+            "to": 565.5599999999999,
+            "location": 2,
+            "content": "powerful we can add in else statement at"
+        },
+        {
+            "from": 562.08,
+            "to": 568.3200000000001,
+            "location": 2,
+            "content": "the end remove this and there we go"
+        },
+        {
+            "from": 565.5599999999999,
+            "to": 570.72,
+            "location": 2,
+            "content": "now it's all one big if statement else"
+        },
+        {
+            "from": 568.3200000000001,
+            "to": 573.48,
+            "location": 2,
+            "content": "will execute and none of its upper"
+        },
+        {
+            "from": 570.72,
+            "to": 575.9400000000001,
+            "location": 2,
+            "content": "components executed so if you have a"
+        },
+        {
+            "from": 573.48,
+            "to": 578.04,
+            "location": 2,
+            "content": "hundred else if statements here if none"
+        },
+        {
+            "from": 575.9400000000001,
+            "to": 580.8,
+            "location": 2,
+            "content": "of them execute then else will execute"
+        },
+        {
+            "from": 578.04,
+            "to": 583.8,
+            "location": 2,
+            "content": "at the very end however if one of these"
+        },
+        {
+            "from": 580.8,
+            "to": 586.8,
+            "location": 2,
+            "content": "else ifs execute or if this if execute"
+        },
+        {
+            "from": 583.8,
+            "to": 588.0,
+            "location": 2,
+            "content": "else will not execute so this will only"
+        },
+        {
+            "from": 586.8,
+            "to": 591.08,
+            "location": 2,
+            "content": "execute"
+        },
+        {
+            "from": 588.0,
+            "to": 594.12,
+            "location": 2,
+            "content": "only run if"
+        },
+        {
+            "from": 591.08,
+            "to": 595.38,
+            "location": 2,
+            "content": "none of the other"
+        },
+        {
+            "from": 594.12,
+            "to": 598.3200000000001,
+            "location": 2,
+            "content": "if"
+        },
+        {
+            "from": 595.38,
+            "to": 601.92,
+            "location": 2,
+            "content": "or L if ran"
+        },
+        {
+            "from": 598.3200000000001,
+            "to": 605.88,
+            "location": 2,
+            "content": "so this and this did not run then run"
+        },
+        {
+            "from": 601.92,
+            "to": 609.54,
+            "location": 2,
+            "content": "else but if this ran skip these if this"
+        },
+        {
+            "from": 605.88,
+            "to": 612.12,
+            "location": 2,
+            "content": "ran skip this and skip this all right"
+        },
+        {
+            "from": 609.54,
+            "to": 616.74,
+            "location": 2,
+            "content": "now if you run this we'll get you may"
+        },
+        {
+            "from": 612.12,
+            "to": 620.88,
+            "location": 2,
+            "content": "not enter if we make them 39 they may"
+        },
+        {
+            "from": 616.74,
+            "to": 622.14,
+            "location": 2,
+            "content": "enter if you make them 90 they may not"
+        },
+        {
+            "from": 620.88,
+            "to": 624.6,
+            "location": 2,
+            "content": "enter"
+        },
+        {
+            "from": 622.14,
+            "to": 627.1799999999999,
+            "location": 2,
+            "content": "so it's basically what we had but now"
+        },
+        {
+            "from": 624.6,
+            "to": 628.92,
+            "location": 2,
+            "content": "there's less checks and we didn't have"
+        },
+        {
+            "from": 627.1799999999999,
+            "to": 630.899,
+            "location": 2,
+            "content": "to worry that one if statement will"
+        },
+        {
+            "from": 628.92,
+            "to": 632.58,
+            "location": 2,
+            "content": "execute when another should not be"
+        },
+        {
+            "from": 630.899,
+            "to": 634.5,
+            "location": 2,
+            "content": "executing because this one has already"
+        },
+        {
+            "from": 632.58,
+            "to": 637.6799999999999,
+            "location": 2,
+            "content": "executed"
+        },
+        {
+            "from": 634.5,
+            "to": 639.899,
+            "location": 2,
+            "content": "it's the same as getting else and then"
+        },
+        {
+            "from": 637.6799999999999,
+            "to": 642.66,
+            "location": 2,
+            "content": "doing this"
+        },
+        {
+            "from": 639.899,
+            "to": 645.54,
+            "location": 2,
+            "content": "instead of having to indent this and do"
+        },
+        {
+            "from": 642.66,
+            "to": 648.1799999999999,
+            "location": 2,
+            "content": "this we can just do this and I will make"
+        },
+        {
+            "from": 645.54,
+            "to": 650.579,
+            "location": 2,
+            "content": "it easier on us as well now let's say we"
+        },
+        {
+            "from": 648.1799999999999,
+            "to": 653.9400000000001,
+            "location": 2,
+            "content": "want to do a few extra checks here let's"
+        },
+        {
+            "from": 650.579,
+            "to": 655.6799999999999,
+            "location": 2,
+            "content": "say if they may enter you will want to"
+        },
+        {
+            "from": 653.9400000000001,
+            "to": 660.66,
+            "location": 2,
+            "content": "go"
+        },
+        {
+            "from": 655.6799999999999,
+            "to": 665.579,
+            "location": 2,
+            "content": "if name is equal to Jack"
+        },
+        {
+            "from": 660.66,
+            "to": 668.579,
+            "location": 2,
+            "content": "then 20 off all drinks"
+        },
+        {
+            "from": 665.579,
+            "to": 670.92,
+            "location": 2,
+            "content": "and we'll take this"
+        },
+        {
+            "from": 668.579,
+            "to": 673.019,
+            "location": 2,
+            "content": "so we're checking if their name is equal"
+        },
+        {
+            "from": 670.92,
+            "to": 674.579,
+            "location": 2,
+            "content": "to Jack do this"
+        },
+        {
+            "from": 673.019,
+            "to": 676.8,
+            "location": 2,
+            "content": "and then also do this because you have"
+        },
+        {
+            "from": 674.579,
+            "to": 679.2,
+            "location": 2,
+            "content": "to remember if something is not part of"
+        },
+        {
+            "from": 676.8,
+            "to": 680.9400000000001,
+            "location": 2,
+            "content": "an if statement it will still execute if"
+        },
+        {
+            "from": 679.2,
+            "to": 682.4400000000001,
+            "location": 2,
+            "content": "I go here let's say"
+        },
+        {
+            "from": 680.9400000000001,
+            "to": 686.22,
+            "location": 2,
+            "content": "echo1"
+        },
+        {
+            "from": 682.4400000000001,
+            "to": 689.88,
+            "location": 2,
+            "content": "and then I'll go here and say echo2 we"
+        },
+        {
+            "from": 686.22,
+            "to": 691.74,
+            "location": 2,
+            "content": "will always see echo1 and Echo 2. no"
+        },
+        {
+            "from": 689.88,
+            "to": 693.66,
+            "location": 2,
+            "content": "matter what this if statement says we"
+        },
+        {
+            "from": 691.74,
+            "to": 697.4400000000001,
+            "location": 2,
+            "content": "will always see this because these are"
+        },
+        {
+            "from": 693.66,
+            "to": 700.26,
+            "location": 2,
+            "content": "not part of the if statement"
+        },
+        {
+            "from": 697.4400000000001,
+            "to": 702.42,
+            "location": 2,
+            "content": "same applies here because this Echo is"
+        },
+        {
+            "from": 700.26,
+            "to": 704.519,
+            "location": 2,
+            "content": "not part of this if state if it wants to"
+        },
+        {
+            "from": 702.42,
+            "to": 706.4400000000001,
+            "location": 2,
+            "content": "be it needs to be indented"
+        },
+        {
+            "from": 704.519,
+            "to": 708.9589999999999,
+            "location": 2,
+            "content": "because this here is its own little"
+        },
+        {
+            "from": 706.4400000000001,
+            "to": 710.579,
+            "location": 2,
+            "content": "block scope same with this this is its"
+        },
+        {
+            "from": 708.9589999999999,
+            "to": 713.279,
+            "location": 2,
+            "content": "own block scope so if we were to go like"
+        },
+        {
+            "from": 710.579,
+            "to": 714.899,
+            "location": 2,
+            "content": "this then now this will be part of this"
+        },
+        {
+            "from": 713.279,
+            "to": 717.54,
+            "location": 2,
+            "content": "if statement and this if statement is"
+        },
+        {
+            "from": 714.899,
+            "to": 721.98,
+            "location": 2,
+            "content": "part of this else statement but they are"
+        },
+        {
+            "from": 717.54,
+            "to": 724.38,
+            "location": 2,
+            "content": "not part of this core code here"
+        },
+        {
+            "from": 721.98,
+            "to": 727.2,
+            "location": 2,
+            "content": "indentation is very important again"
+        },
+        {
+            "from": 724.38,
+            "to": 730.14,
+            "location": 2,
+            "content": "because this indentation says if"
+        },
+        {
+            "from": 727.2,
+            "to": 732.54,
+            "location": 2,
+            "content": "something is part of something else"
+        },
+        {
+            "from": 730.14,
+            "to": 736.14,
+            "location": 2,
+            "content": "this also shows you you can have an if"
+        },
+        {
+            "from": 732.54,
+            "to": 739.079,
+            "location": 2,
+            "content": "statement inside of another if statement"
+        },
+        {
+            "from": 736.14,
+            "to": 742.62,
+            "location": 2,
+            "content": "even up here we could say"
+        },
+        {
+            "from": 739.079,
+            "to": 743.88,
+            "location": 2,
+            "content": "if name is equal to Jack this could be a"
+        },
+        {
+            "from": 742.62,
+            "to": 745.2,
+            "location": 2,
+            "content": "special case"
+        },
+        {
+            "from": 743.88,
+            "to": 746.579,
+            "location": 2,
+            "content": "and then"
+        },
+        {
+            "from": 745.2,
+            "to": 748.3200000000001,
+            "location": 2,
+            "content": "Echo"
+        },
+        {
+            "from": 746.579,
+            "to": 749.779,
+            "location": 2,
+            "content": "you may"
+        },
+        {
+            "from": 748.3200000000001,
+            "to": 754.38,
+            "location": 2,
+            "content": "enter"
+        },
+        {
+            "from": 749.779,
+            "to": 756.42,
+            "location": 2,
+            "content": "you are a good customer there we go"
+        },
+        {
+            "from": 754.38,
+            "to": 758.64,
+            "location": 2,
+            "content": "so you can have an if statement within"
+        },
+        {
+            "from": 756.42,
+            "to": 761.04,
+            "location": 2,
+            "content": "another if statement now if we were to"
+        },
+        {
+            "from": 758.64,
+            "to": 763.2,
+            "location": 2,
+            "content": "run this we will get you may enter you"
+        },
+        {
+            "from": 761.04,
+            "to": 765.36,
+            "location": 2,
+            "content": "are a good customer and we'll still get"
+        },
+        {
+            "from": 763.2,
+            "to": 769.019,
+            "location": 2,
+            "content": "2 here because 2 and we'll just resize"
+        },
+        {
+            "from": 765.36,
+            "to": 770.9400000000001,
+            "location": 2,
+            "content": "this because 2 is still part of the"
+        },
+        {
+            "from": 769.019,
+            "to": 773.4589999999999,
+            "location": 2,
+            "content": "normal code it's not part of this if"
+        },
+        {
+            "from": 770.9400000000001,
+            "to": 775.139,
+            "location": 2,
+            "content": "statement if you were to indent it it"
+        },
+        {
+            "from": 773.4589999999999,
+            "to": 776.279,
+            "location": 2,
+            "content": "will be part of the if statement and it"
+        },
+        {
+            "from": 775.139,
+            "to": 778.2,
+            "location": 2,
+            "content": "will not run"
+        },
+        {
+            "from": 776.279,
+            "to": 780.48,
+            "location": 2,
+            "content": "all right but you'll notice we still get"
+        },
+        {
+            "from": 778.2,
+            "to": 782.7,
+            "location": 2,
+            "content": "your elderly may not enter"
+        },
+        {
+            "from": 780.48,
+            "to": 785.3390000000001,
+            "location": 2,
+            "content": "what we want to do here maybe is we"
+        },
+        {
+            "from": 782.7,
+            "to": 787.4400000000001,
+            "location": 2,
+            "content": "could say if name"
+        },
+        {
+            "from": 785.3390000000001,
+            "to": 789.12,
+            "location": 2,
+            "content": "okay so let's try adding a nautical if"
+        },
+        {
+            "from": 787.4400000000001,
+            "to": 790.6799999999999,
+            "location": 2,
+            "content": "it's not equal to Jack"
+        },
+        {
+            "from": 789.12,
+            "to": 792.9589999999999,
+            "location": 2,
+            "content": "Echo this"
+        },
+        {
+            "from": 790.6799999999999,
+            "to": 795.24,
+            "location": 2,
+            "content": "else this"
+        },
+        {
+            "from": 792.9589999999999,
+            "to": 797.4589999999999,
+            "location": 2,
+            "content": "so we have an if else in here of course"
+        },
+        {
+            "from": 795.24,
+            "to": 798.9589999999999,
+            "location": 2,
+            "content": "you could have said equals Jack"
+        },
+        {
+            "from": 797.4589999999999,
+            "to": 801.72,
+            "location": 2,
+            "content": "and you could do this"
+        },
+        {
+            "from": 798.9589999999999,
+            "to": 804.3,
+            "location": 2,
+            "content": "so this is if the name is Jack do this"
+        },
+        {
+            "from": 801.72,
+            "to": 806.9400000000001,
+            "location": 2,
+            "content": "but you could also do not equal so the"
+        },
+        {
+            "from": 804.3,
+            "to": 809.399,
+            "location": 2,
+            "content": "name is not equal to Jack do this and"
+        },
+        {
+            "from": 806.9400000000001,
+            "to": 812.76,
+            "location": 2,
+            "content": "take note of this equal symbol here"
+        },
+        {
+            "from": 809.399,
+            "to": 814.5,
+            "location": 2,
+            "content": "this is two equal symbols not one one"
+        },
+        {
+            "from": 812.76,
+            "to": 818.04,
+            "location": 2,
+            "content": "will reassign"
+        },
+        {
+            "from": 814.5,
+            "to": 819.899,
+            "location": 2,
+            "content": "two will check conditions this is a very"
+        },
+        {
+            "from": 818.04,
+            "to": 821.9400000000001,
+            "location": 2,
+            "content": "important distinction to make"
+        },
+        {
+            "from": 819.899,
+            "to": 823.8,
+            "location": 2,
+            "content": "now if we run this we get you may enter"
+        },
+        {
+            "from": 821.9400000000001,
+            "to": 825.9589999999999,
+            "location": 2,
+            "content": "you are a good customer"
+        },
+        {
+            "from": 823.8,
+            "to": 827.8200000000001,
+            "location": 2,
+            "content": "and in here we could say"
+        },
+        {
+            "from": 825.9589999999999,
+            "to": 829.3200000000001,
+            "location": 2,
+            "content": "let's say their name was"
+        },
+        {
+            "from": 827.8200000000001,
+            "to": 833.4589999999999,
+            "location": 2,
+            "content": "AC"
+        },
+        {
+            "from": 829.3200000000001,
+            "to": 836.04,
+            "location": 2,
+            "content": "then they say your elderly may not enter"
+        },
+        {
+            "from": 833.4589999999999,
+            "to": 837.36,
+            "location": 2,
+            "content": "let's say your name was Jack and they"
+        },
+        {
+            "from": 836.04,
+            "to": 840.54,
+            "location": 2,
+            "content": "were"
+        },
+        {
+            "from": 837.36,
+            "to": 842.8200000000001,
+            "location": 2,
+            "content": "38 so they are allowed to enter"
+        },
+        {
+            "from": 840.54,
+            "to": 844.74,
+            "location": 2,
+            "content": "then 30 percent of all drinks and you"
+        },
+        {
+            "from": 842.8200000000001,
+            "to": 847.38,
+            "location": 2,
+            "content": "may enter we might want to put the human"
+        },
+        {
+            "from": 844.74,
+            "to": 849.42,
+            "location": 2,
+            "content": "inter first and then say 20 off of all"
+        },
+        {
+            "from": 847.38,
+            "to": 851.16,
+            "location": 2,
+            "content": "drinks just to make it look like there's"
+        },
+        {
+            "from": 849.42,
+            "to": 853.26,
+            "location": 2,
+            "content": "actually some order here"
+        },
+        {
+            "from": 851.16,
+            "to": 854.579,
+            "location": 2,
+            "content": "if you run this then it will display in"
+        },
+        {
+            "from": 853.26,
+            "to": 856.3200000000001,
+            "location": 2,
+            "content": "that order"
+        },
+        {
+            "from": 854.579,
+            "to": 858.54,
+            "location": 2,
+            "content": "and if their name was not jacked they"
+        },
+        {
+            "from": 856.3200000000001,
+            "to": 861.3,
+            "location": 2,
+            "content": "will not receive that message to run"
+        },
+        {
+            "from": 858.54,
+            "to": 862.62,
+            "location": 2,
+            "content": "this you may enter but not 20 of all"
+        },
+        {
+            "from": 861.3,
+            "to": 864.54,
+            "location": 2,
+            "content": "drinks"
+        },
+        {
+            "from": 862.62,
+            "to": 868.5,
+            "location": 2,
+            "content": "now let's say if it's someone's birthday"
+        },
+        {
+            "from": 864.54,
+            "to": 871.62,
+            "location": 2,
+            "content": "they also get 20 percent of drinks"
+        },
+        {
+            "from": 868.5,
+            "to": 873.24,
+            "location": 2,
+            "content": "well if that is the case then we could"
+        },
+        {
+            "from": 871.62,
+            "to": 876.72,
+            "location": 2,
+            "content": "say"
+        },
+        {
+            "from": 873.24,
+            "to": 878.519,
+            "location": 2,
+            "content": "or birthday is equal to true"
+        },
+        {
+            "from": 876.72,
+            "to": 882.6,
+            "location": 2,
+            "content": "so now we're checking is their name Jack"
+        },
+        {
+            "from": 878.519,
+            "to": 884.76,
+            "location": 2,
+            "content": "or is their birthday today if it is then"
+        },
+        {
+            "from": 882.6,
+            "to": 886.3200000000001,
+            "location": 2,
+            "content": "print this so this is again an example"
+        },
+        {
+            "from": 884.76,
+            "to": 888.9589999999999,
+            "location": 2,
+            "content": "of an or statement"
+        },
+        {
+            "from": 886.3200000000001,
+            "to": 891.899,
+            "location": 2,
+            "content": "with this Boolean statement here we can"
+        },
+        {
+            "from": 888.9589999999999,
+            "to": 893.399,
+            "location": 2,
+            "content": "actually just go like this this means if"
+        },
+        {
+            "from": 891.899,
+            "to": 895.38,
+            "location": 2,
+            "content": "their name is Jack or if it's their"
+        },
+        {
+            "from": 893.399,
+            "to": 896.3390000000001,
+            "location": 2,
+            "content": "birthday because this is already true or"
+        },
+        {
+            "from": 895.38,
+            "to": 898.74,
+            "location": 2,
+            "content": "false"
+        },
+        {
+            "from": 896.3390000000001,
+            "to": 900.779,
+            "location": 2,
+            "content": "because going like this"
+        },
+        {
+            "from": 898.74,
+            "to": 903.12,
+            "location": 2,
+            "content": "is the same as not having that there"
+        },
+        {
+            "from": 900.779,
+            "to": 904.38,
+            "location": 2,
+            "content": "because it will still check if this is a"
+        },
+        {
+            "from": 903.12,
+            "to": 906.36,
+            "location": 2,
+            "content": "true value"
+        },
+        {
+            "from": 904.38,
+            "to": 907.26,
+            "location": 2,
+            "content": "so you can also do if it's not equal to"
+        },
+        {
+            "from": 906.36,
+            "to": 911.279,
+            "location": 2,
+            "content": "true"
+        },
+        {
+            "from": 907.26,
+            "to": 914.8200000000001,
+            "location": 2,
+            "content": "or if it is equal to false"
+        },
+        {
+            "from": 911.279,
+            "to": 918.0,
+            "location": 2,
+            "content": "or you could go or not birthday"
+        },
+        {
+            "from": 914.8200000000001,
+            "to": 919.74,
+            "location": 2,
+            "content": "not here tells us if this is a false"
+        },
+        {
+            "from": 918.0,
+            "to": 922.3200000000001,
+            "location": 2,
+            "content": "value then it will be represented as"
+        },
+        {
+            "from": 919.74,
+            "to": 923.279,
+            "location": 2,
+            "content": "true if you were to open up an M secret"
+        },
+        {
+            "from": 922.3200000000001,
+            "to": 925.5599999999999,
+            "location": 2,
+            "content": "here"
+        },
+        {
+            "from": 923.279,
+            "to": 929.16,
+            "location": 2,
+            "content": "which is a little command line and we"
+        },
+        {
+            "from": 925.5599999999999,
+            "to": 931.6799999999999,
+            "location": 2,
+            "content": "would say let X is equal to true"
+        },
+        {
+            "from": 929.16,
+            "to": 933.42,
+            "location": 2,
+            "content": "X is a true Boolean"
+        },
+        {
+            "from": 931.6799999999999,
+            "to": 937.38,
+            "location": 2,
+            "content": "not"
+        },
+        {
+            "from": 933.42,
+            "to": 939.48,
+            "location": 2,
+            "content": "X is false because if something is not"
+        },
+        {
+            "from": 937.38,
+            "to": 943.199,
+            "location": 2,
+            "content": "true it is false"
+        },
+        {
+            "from": 939.48,
+            "to": 945.0599999999999,
+            "location": 2,
+            "content": "not not X would be true because if"
+        },
+        {
+            "from": 943.199,
+            "to": 948.54,
+            "location": 2,
+            "content": "something because first here this is"
+        },
+        {
+            "from": 945.0599999999999,
+            "to": 951.0599999999999,
+            "location": 2,
+            "content": "true if it's not true it's false if it's"
+        },
+        {
+            "from": 948.54,
+            "to": 953.88,
+            "location": 2,
+            "content": "not false it's true"
+        },
+        {
+            "from": 951.0599999999999,
+            "to": 955.86,
+            "location": 2,
+            "content": "so not will allow us to flip it around"
+        },
+        {
+            "from": 953.88,
+            "to": 957.6,
+            "location": 2,
+            "content": "so if it's true it becomes false if it's"
+        },
+        {
+            "from": 955.86,
+            "to": 960.36,
+            "location": 2,
+            "content": "false it becomes true"
+        },
+        {
+            "from": 957.6,
+            "to": 963.1799999999999,
+            "location": 2,
+            "content": "all right so if your name is Jack or if"
+        },
+        {
+            "from": 960.36,
+            "to": 964.62,
+            "location": 2,
+            "content": "it's not their birthday they get 30 off"
+        },
+        {
+            "from": 963.1799999999999,
+            "to": 965.639,
+            "location": 2,
+            "content": "something you might want to take a look"
+        },
+        {
+            "from": 964.62,
+            "to": 967.079,
+            "location": 2,
+            "content": "at"
+        },
+        {
+            "from": 965.639,
+            "to": 969.8390000000001,
+            "location": 2,
+            "content": "now let's say"
+        },
+        {
+            "from": 967.079,
+            "to": 971.76,
+            "location": 2,
+            "content": "the name should either be Jack"
+        },
+        {
+            "from": 969.8390000000001,
+            "to": 973.4400000000001,
+            "location": 2,
+            "content": "or it's their birthday but they cannot"
+        },
+        {
+            "from": 971.76,
+            "to": 977.519,
+            "location": 2,
+            "content": "be both"
+        },
+        {
+            "from": 973.4400000000001,
+            "to": 979.26,
+            "location": 2,
+            "content": "so if I say xor birthday then it either"
+        },
+        {
+            "from": 977.519,
+            "to": 980.9400000000001,
+            "location": 2,
+            "content": "has to be their birthday or their name"
+        },
+        {
+            "from": 979.26,
+            "to": 983.519,
+            "location": 2,
+            "content": "should be Jack but if their name is Jack"
+        },
+        {
+            "from": 980.9400000000001,
+            "to": 984.8390000000001,
+            "location": 2,
+            "content": "and it's their birthday they are not"
+        },
+        {
+            "from": 983.519,
+            "to": 987.0,
+            "location": 2,
+            "content": "allowed to have a drink"
+        },
+        {
+            "from": 984.8390000000001,
+            "to": 989.279,
+            "location": 2,
+            "content": "but if it's their birthday"
+        },
+        {
+            "from": 987.0,
+            "to": 991.139,
+            "location": 2,
+            "content": "and their name is not Jack they are"
+        },
+        {
+            "from": 989.279,
+            "to": 992.699,
+            "location": 2,
+            "content": "allowed to have a drink for 20 off if"
+        },
+        {
+            "from": 991.139,
+            "to": 994.199,
+            "location": 2,
+            "content": "their name is Jack but it's not their"
+        },
+        {
+            "from": 992.699,
+            "to": 996.899,
+            "location": 2,
+            "content": "birthday they're allowed time to drive"
+        },
+        {
+            "from": 994.199,
+            "to": 998.699,
+            "location": 2,
+            "content": "for 20 percent off if you run this we'll"
+        },
+        {
+            "from": 996.899,
+            "to": 1001.22,
+            "location": 2,
+            "content": "get what we expect"
+        },
+        {
+            "from": 998.699,
+            "to": 1002.72,
+            "location": 2,
+            "content": "three percent of all drinks but if we"
+        },
+        {
+            "from": 1001.22,
+            "to": 1005.66,
+            "location": 2,
+            "content": "were to make their birthday false"
+        },
+        {
+            "from": 1002.72,
+            "to": 1008.0,
+            "location": 2,
+            "content": "meaning both of these will be false"
+        },
+        {
+            "from": 1005.66,
+            "to": 1008.72,
+            "location": 2,
+            "content": "then you may enter it will not execute"
+        },
+        {
+            "from": 1008.0,
+            "to": 1010.88,
+            "location": 2,
+            "content": "this"
+        },
+        {
+            "from": 1008.72,
+            "to": 1013.339,
+            "location": 2,
+            "content": "but if your name was Jack they will get"
+        },
+        {
+            "from": 1010.88,
+            "to": 1015.62,
+            "location": 2,
+            "content": "20 off their drinks but if their name is"
+        },
+        {
+            "from": 1013.339,
+            "to": 1019.519,
+            "location": 2,
+            "content": "Jack and it's their birthday"
+        },
+        {
+            "from": 1015.62,
+            "to": 1021.56,
+            "location": 2,
+            "content": "then they will not get 20 off all drinks"
+        },
+        {
+            "from": 1019.519,
+            "to": 1023.12,
+            "location": 2,
+            "content": "now let's say we check if it's their"
+        },
+        {
+            "from": 1021.56,
+            "to": 1024.559,
+            "location": 2,
+            "content": "birthday"
+        },
+        {
+            "from": 1023.12,
+            "to": 1027.74,
+            "location": 2,
+            "content": "and"
+        },
+        {
+            "from": 1024.559,
+            "to": 1029.38,
+            "location": 2,
+            "content": "if your name is equal to"
+        },
+        {
+            "from": 1027.74,
+            "to": 1033.02,
+            "location": 2,
+            "content": "Jack"
+        },
+        {
+            "from": 1029.38,
+            "to": 1035.419,
+            "location": 2,
+            "content": "or their age is more than 30. now this"
+        },
+        {
+            "from": 1033.02,
+            "to": 1039.319,
+            "location": 2,
+            "content": "is a little bit confusing because with"
+        },
+        {
+            "from": 1035.419,
+            "to": 1041.78,
+            "location": 2,
+            "content": "python or what Nim will do here"
+        },
+        {
+            "from": 1039.319,
+            "to": 1044.419,
+            "location": 2,
+            "content": "is Nim will first check is it your"
+        },
+        {
+            "from": 1041.78,
+            "to": 1046.16,
+            "location": 2,
+            "content": "birthday if this is true they will try"
+        },
+        {
+            "from": 1044.419,
+            "to": 1048.919,
+            "location": 2,
+            "content": "and check is their name equal to check"
+        },
+        {
+            "from": 1046.16,
+            "to": 1051.2,
+            "location": 2,
+            "content": "as well if this is true that if this is"
+        },
+        {
+            "from": 1048.919,
+            "to": 1055.1,
+            "location": 2,
+            "content": "true or this is true that's what Nim"
+        },
+        {
+            "from": 1051.2,
+            "to": 1057.559,
+            "location": 2,
+            "content": "will do so Nim will basically first run"
+        },
+        {
+            "from": 1055.1,
+            "to": 1060.86,
+            "location": 2,
+            "content": "this statement here the first statement"
+        },
+        {
+            "from": 1057.559,
+            "to": 1063.5,
+            "location": 2,
+            "content": "it sees so if this is true or if this is"
+        },
+        {
+            "from": 1060.86,
+            "to": 1065.72,
+            "location": 2,
+            "content": "true but in our case let's say we don't"
+        },
+        {
+            "from": 1063.5,
+            "to": 1068.299,
+            "location": 2,
+            "content": "care about this we just want to check"
+        },
+        {
+            "from": 1065.72,
+            "to": 1071.059,
+            "location": 2,
+            "content": "this and I will check if it's their"
+        },
+        {
+            "from": 1068.299,
+            "to": 1073.76,
+            "location": 2,
+            "content": "birthday and their name is Jack or their"
+        },
+        {
+            "from": 1071.059,
+            "to": 1074.96,
+            "location": 2,
+            "content": "age is more than 30. then it will Echo"
+        },
+        {
+            "from": 1073.76,
+            "to": 1077.179,
+            "location": 2,
+            "content": "this"
+        },
+        {
+            "from": 1074.96,
+            "to": 1079.1,
+            "location": 2,
+            "content": "but by default it will not do that so"
+        },
+        {
+            "from": 1077.179,
+            "to": 1082.039,
+            "location": 2,
+            "content": "you will need to use brackets to specify"
+        },
+        {
+            "from": 1079.1,
+            "to": 1085.52,
+            "location": 2,
+            "content": "what you want to be checked first if you"
+        },
+        {
+            "from": 1082.039,
+            "to": 1087.2,
+            "location": 2,
+            "content": "run this we get SAS because this"
+        },
+        {
+            "from": 1085.52,
+            "to": 1089.6,
+            "location": 2,
+            "content": "executed as true"
+        },
+        {
+            "from": 1087.2,
+            "to": 1091.7,
+            "location": 2,
+            "content": "cool now one more thing is you might"
+        },
+        {
+            "from": 1089.6,
+            "to": 1095.96,
+            "location": 2,
+            "content": "want to turn aerator operator"
+        },
+        {
+            "from": 1091.7,
+            "to": 1097.64,
+            "location": 2,
+            "content": "so let's go let's greet is equal to if"
+        },
+        {
+            "from": 1095.96,
+            "to": 1099.62,
+            "location": 2,
+            "content": "birthday"
+        },
+        {
+            "from": 1097.64,
+            "to": 1104.9,
+            "location": 2,
+            "content": "so if it's their birthday"
+        },
+        {
+            "from": 1099.62,
+            "to": 1106.28,
+            "location": 2,
+            "content": "then greed becomes happy birth day"
+        },
+        {
+            "from": 1104.9,
+            "to": 1107.6,
+            "location": 2,
+            "content": "else"
+        },
+        {
+            "from": 1106.28,
+            "to": 1109.76,
+            "location": 2,
+            "content": "welcome"
+        },
+        {
+            "from": 1107.6,
+            "to": 1111.44,
+            "location": 2,
+            "content": "so internet radio operator is when you"
+        },
+        {
+            "from": 1109.76,
+            "to": 1114.679,
+            "location": 2,
+            "content": "have this if statement but it's in one"
+        },
+        {
+            "from": 1111.44,
+            "to": 1116.6,
+            "location": 2,
+            "content": "line and returns a value in this case we"
+        },
+        {
+            "from": 1114.679,
+            "to": 1121.039,
+            "location": 2,
+            "content": "could have gone"
+        },
+        {
+            "from": 1116.6,
+            "to": 1123.32,
+            "location": 2,
+            "content": "VAR great is equal to welcome and then"
+        },
+        {
+            "from": 1121.039,
+            "to": 1128.78,
+            "location": 2,
+            "content": "we could have gone if"
+        },
+        {
+            "from": 1123.32,
+            "to": 1131.419,
+            "location": 2,
+            "content": "birthday then greet is equal to"
+        },
+        {
+            "from": 1128.78,
+            "to": 1133.82,
+            "location": 2,
+            "content": "happy birthday"
+        },
+        {
+            "from": 1131.419,
+            "to": 1136.7,
+            "location": 2,
+            "content": "we could have done this but as you see"
+        },
+        {
+            "from": 1133.82,
+            "to": 1138.559,
+            "location": 2,
+            "content": "now greed needs to be Evar"
+        },
+        {
+            "from": 1136.7,
+            "to": 1140.299,
+            "location": 2,
+            "content": "which you don't necessarily want you"
+        },
+        {
+            "from": 1138.559,
+            "to": 1143.419,
+            "location": 2,
+            "content": "might be like me and you want to stick"
+        },
+        {
+            "from": 1140.299,
+            "to": 1146.179,
+            "location": 2,
+            "content": "with lit as most match as possible"
+        },
+        {
+            "from": 1143.419,
+            "to": 1148.039,
+            "location": 2,
+            "content": "so first greed has to be a war plus this"
+        },
+        {
+            "from": 1146.179,
+            "to": 1149.96,
+            "location": 2,
+            "content": "takes up four lines including the"
+        },
+        {
+            "from": 1148.039,
+            "to": 1152.12,
+            "location": 2,
+            "content": "spacers but it could take a free"
+        },
+        {
+            "from": 1149.96,
+            "to": 1153.38,
+            "location": 2,
+            "content": "but this takes up four lines instead of"
+        },
+        {
+            "from": 1152.12,
+            "to": 1155.0,
+            "location": 2,
+            "content": "one line"
+        },
+        {
+            "from": 1153.38,
+            "to": 1157.22,
+            "location": 2,
+            "content": "and this actually might be a little bit"
+        },
+        {
+            "from": 1155.0,
+            "to": 1158.36,
+            "location": 2,
+            "content": "more difficult to read than this inline"
+        },
+        {
+            "from": 1157.22,
+            "to": 1160.4,
+            "location": 2,
+            "content": "if statement"
+        },
+        {
+            "from": 1158.36,
+            "to": 1162.919,
+            "location": 2,
+            "content": "so you might actually see more use in"
+        },
+        {
+            "from": 1160.4,
+            "to": 1165.679,
+            "location": 2,
+            "content": "having this turnario operator around"
+        },
+        {
+            "from": 1162.919,
+            "to": 1168.32,
+            "location": 2,
+            "content": "then using a normal if statement but"
+        },
+        {
+            "from": 1165.679,
+            "to": 1170.9,
+            "location": 2,
+            "content": "this is up to you if you prefer to use a"
+        },
+        {
+            "from": 1168.32,
+            "to": 1172.94,
+            "location": 2,
+            "content": "ternary operator above a normal if"
+        },
+        {
+            "from": 1170.9,
+            "to": 1175.22,
+            "location": 2,
+            "content": "statement then use it just don't go too"
+        },
+        {
+            "from": 1172.94,
+            "to": 1177.2,
+            "location": 2,
+            "content": "overboard because they become very"
+        },
+        {
+            "from": 1175.22,
+            "to": 1179.539,
+            "location": 2,
+            "content": "difficult to read very fast but with"
+        },
+        {
+            "from": 1177.2,
+            "to": 1181.52,
+            "location": 2,
+            "content": "Basics scenarios like this it is one of"
+        },
+        {
+            "from": 1179.539,
+            "to": 1183.679,
+            "location": 2,
+            "content": "the best things in the world and now we"
+        },
+        {
+            "from": 1181.52,
+            "to": 1186.919,
+            "location": 2,
+            "content": "get happy birthday able to make this"
+        },
+        {
+            "from": 1183.679,
+            "to": 1188.24,
+            "location": 2,
+            "content": "false we will get welcome"
+        },
+        {
+            "from": 1186.919,
+            "to": 1190.22,
+            "location": 2,
+            "content": "cool"
+        },
+        {
+            "from": 1188.24,
+            "to": 1192.62,
+            "location": 2,
+            "content": "and that's the basics on if statement"
+        },
+        {
+            "from": 1190.22,
+            "to": 1193.76,
+            "location": 2,
+            "content": "quite a lot to cover quite a lot to"
+        },
+        {
+            "from": 1192.62,
+            "to": 1195.679,
+            "location": 2,
+            "content": "remember"
+        },
+        {
+            "from": 1193.76,
+            "to": 1198.44,
+            "location": 2,
+            "content": "but I hope you all enjoyed and I will"
+        },
+        {
+            "from": 1195.679,
+            "to": 1201.1,
+            "location": 2,
+            "content": "see you all again in the next Nim"
+        },
+        {
+            "from": 1198.44,
+            "to": 1201.1,
+            "location": 2,
+            "content": "tutorial"
+        }
+    ]
+}
