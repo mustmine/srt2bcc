@@ -1,7 +1,7 @@
 # rst2bcc
 a simple implementation in nim
 
-Subtitle file .srt trans to .bbc(bilibili json)
+Subtitle file .srt trans to .bcc(bilibili json)
 
 ```
 # input file
